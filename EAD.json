@@ -1,0 +1,38 @@
+{
+    "name": "EAD's source",
+    "subtitle": "Private source for EAD",
+    "description": "LONG_DESCRIPTION",
+    "iconURL": "https://cdn.7tv.app/emote/6320dd41351dcc82e6f4153e/4x.webp",
+    "headerURL": "LINK_TO_IMAGE.png",
+    "website": "YOUR_WEBSITE_URL",
+    "tintColor": "#F54F32",
+    "featuredApps": [],
+    "apps": [
+        {
+            "name": "Bootstrap",
+            "bundleIdentifier": "APP.BUNDLE.ID",
+            "developerName": "DEVELOPER_NAME",
+            "subtitle": "SHORT_APP_DESCRIPTION",
+            "localizedDescription": "LONG_APP_DESCRIPTION",
+            "iconURL": "LINK_TO_ICON.png",
+            "tintColor": "#F54F32",
+            "screenshotURLs": [
+                "LINK_TO_SCREENSHOT_1.png",
+                "LINK_TO_SCREENSHOT_2.png"
+            ],
+            "versions": [
+                {
+                  "version": "APP.VERSION",
+                  "date": "YYYY-MM-DD",
+                  "localizedDescription": "LONG_APP_DESCRIPTION_OR_CHANGELOG",
+                  "downloadURL": "https://github.com/dleovl/Bootstrap/releases/download/release/Bootstrap.tipa",
+                  "size": 51600000,
+                  "minOSVersion": "14.0",
+                  "maxOSVersion": "17.0"
+                }
+              ],
+            "appPermissions": {}
+        }
+    ],
+    "news": []
+  }
