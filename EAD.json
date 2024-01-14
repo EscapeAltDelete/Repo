@@ -79,6 +79,31 @@
         }
       ],
       "appPermissions": {}
+    },
+    {
+      "name": "Winston",
+      "bundleIdentifier": "WINSTON.BUNDLE.ID",
+      "developerName": "lo-cafe",
+      "subtitle": "",
+      "localizedDescription": "",
+      "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196195844400087271/icon-512.png", 
+      "tintColor": "#FF0000", 
+      "screenshotURLs": [
+        "LINK_TO_SCREENSHOT_5.png", 
+        "LINK_TO_SCREENSHOT_6.png"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "∞",
+          "localizedDescription": "Latest release of Winston.",
+          "downloadURL": "https://github.com/lo-cafe/winston/releases/latest/download/winston.ipa",
+          "size": 12345678,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {}
     }
   ],
   "news": []
