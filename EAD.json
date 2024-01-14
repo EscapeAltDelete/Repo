@@ -1,38 +1,63 @@
 {
-    "name": "EAD's source",
-    "subtitle": "Private source for EAD",
-    "description": "LONG_DESCRIPTION",
-    "iconURL": "https://cdn.7tv.app/emote/6320dd41351dcc82e6f4153e/4x.webp",
-    "headerURL": "https://raw.githubusercontent.com/roothide/Bootstrap/main/Bootstrap/Assets.xcassets/AppIcon.appiconset/icon-1024.png",
-    "website": "https://github.com/roothide/Bootstrap",
-    "tintColor": "#F54F32",
-    "featuredApps": [],
-    "apps": [
+  "name": "EAD's Source",
+  "subtitle": "Private source for EAD",
+  "description": "LONG_DESCRIPTION",
+  "iconURL": "https://cdn.7tv.app/emote/6320dd41351dcc82e6f4153e/4x.webp",
+  "headerURL": "",
+  "website": "",
+  "tintColor": "#F54F32",
+  "featuredApps": [],
+  "apps": [
+    {
+      "name": "Bootstrap",
+      "bundleIdentifier": "APP.BUNDLE.ID",
+      "developerName": "roothide",
+      "subtitle": "A full-featured bootstrap for iOS 14.0-17.0 A8-A17 & M1+M2.",
+      "localizedDescription": "A full-featured bootstrap for iOS 14.0-17.0 A8-A17 & M1+M2. (Currently only tested on versions 15.0-17.0) WARNING: By using this software, you take full responsibility for what you do with it. Any modification to your device may cause irreparable damage to your device. The Bootstrap currently does not work on iOS 17.0 for A15+ devices.",
+      "iconURL": "https://raw.githubusercontent.com/roothide/Bootstrap/main/Bootstrap/Assets.xcassets/AppIcon.appiconset/icon-1024.png",
+      "tintColor": "#F54F32",
+      "screenshotURLs": [
+        "LINK_TO_SCREENSHOT_1.png",
+        "LINK_TO_SCREENSHOT_2.png"
+      ],
+      "versions": [
         {
-            "name": "Bootstrap",
-            "bundleIdentifier": "APP.BUNDLE.ID",
-            "developerName": "roothide",
-            "subtitle": "A full featured bootstrap for iOS 14.0-17.0 A8-A17 & M1+M2.",
-            "localizedDescription": "A full featured bootstrap for iOS 14.0-17.0 A8-A17 & M1+M2. (Currently only tested tested on versions 15.0-17.0) WARNING: By using this software, you take full responsibility for what you do with it. Any modification to your device may cause irreparable damage to your device. The Bootstrap currently does not work on iOS 17.0 for A15+ devices.",
-            "iconURL": "https://raw.githubusercontent.com/roothide/Bootstrap/main/Bootstrap/Assets.xcassets/AppIcon.appiconset/icon-1024.png",
-            "tintColor": "#F54F32",
-            "screenshotURLs": [
-                "LINK_TO_SCREENSHOT_1.png",
-                "LINK_TO_SCREENSHOT_2.png"
-            ],
-            "versions": [
-                {
-                  "version": "∞",
-                  "date": "",
-                  "localizedDescription": "",
-                  "downloadURL": "https://github.com/dleovl/Bootstrap/releases/download/release/Bootstrap.tipa",
-                  "size": 51600000,
-                  "minOSVersion": "14.0",
-                  "maxOSVersion": "17.0"
-                }
-              ],
-            "appPermissions": {}
+          "version": "∞",
+          "date": "∞",
+          "localizedDescription": "Latest release of Bootstrap.",
+          "downloadURL": "https://github.com/roothide/Bootstrap/releases/download/release/Bootstrap.tipa",
+          "size": 51600000,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
         }
-    ],
-    "news": []
-  }
+      ],
+      "appPermissions": {}
+    },
+    {
+      "name": "Helium",
+      "bundleIdentifier": "SECOND.APP.BUNDLE.ID",
+      "developerName": "leminlimez",
+      "subtitle": "",
+      "localizedDescription": "",
+      "iconURL": "",
+      "tintColor": "#3366CC",
+      "screenshotURLs": [
+        "LINK_TO_SCREENSHOT_3.png",
+        "LINK_TO_SCREENSHOT_4.png"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "∞",
+          "localizedDescription": "Latest release of Helium.",
+          "downloadURL": "https://github.com/leminlimez/Helium/releases/latest/download/Helium.tipa",
+          "size": ,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {}
+    }
+  ],
+  "news": []
+}
