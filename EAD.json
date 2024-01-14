@@ -22,9 +22,9 @@
             ],
             "versions": [
                 {
-                  "version": "APP.VERSION",
-                  "date": "YYYY-MM-DD",
-                  "localizedDescription": "LONG_APP_DESCRIPTION_OR_CHANGELOG",
+                  "version": "∞",
+                  "date": "",
+                  "localizedDescription": "",
                   "downloadURL": "https://github.com/dleovl/Bootstrap/releases/download/release/Bootstrap.tipa",
                   "size": 51600000,
                   "minOSVersion": "14.0",
