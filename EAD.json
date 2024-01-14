@@ -51,7 +51,7 @@
           "date": "∞",
           "localizedDescription": "Latest release of Helium.",
           "downloadURL": "https://github.com/leminlimez/Helium/releases/latest/download/Helium.tipa",
-          "size": ,
+          "size": 12345678,  
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
