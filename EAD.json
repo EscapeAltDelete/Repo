@@ -1,6 +1,6 @@
 {
   "name": "EAD's Source",
-  "subtitle": "Private source for EAD",
+  "subtitle": "Source for EAD",
   "description": "LONG_DESCRIPTION",
   "iconURL": "https://cdn.7tv.app/emote/6320dd41351dcc82e6f4153e/4x.webp",
   "headerURL": "",
@@ -39,7 +39,7 @@
       "developerName": "leminlimez",
       "subtitle": "",
       "localizedDescription": "",
-      "iconURL": "",
+      "iconURL": "https://raw.githubusercontent.com/leminlimez/Helium/main/layout/Applications/Helium.app/icon.png",
       "tintColor": "#3366CC",
       "screenshotURLs": [
         "LINK_TO_SCREENSHOT_3.png",
