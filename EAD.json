@@ -4,17 +4,18 @@
     "description": "LONG_DESCRIPTION",
     "iconURL": "https://cdn.7tv.app/emote/6320dd41351dcc82e6f4153e/4x.webp",
     "headerURL": "LINK_TO_IMAGE.png",
-    "website": "YOUR_WEBSITE_URL",
+    "website": "https://github.com/roothide/Bootstrap",
     "tintColor": "#F54F32",
     "featuredApps": [],
     "apps": [
         {
             "name": "Bootstrap",
             "bundleIdentifier": "APP.BUNDLE.ID",
-            "developerName": "DEVELOPER_NAME",
-            "subtitle": "SHORT_APP_DESCRIPTION",
-            "localizedDescription": "LONG_APP_DESCRIPTION",
-            "iconURL": "LINK_TO_ICON.png",
+            "developerName": "roothide",
+            "subtitle": "A full featured bootstrap for iOS 14.0-17.0 A8-A17 & M1+M2.",
+            "localizedDescription": "A full featured bootstrap for iOS 14.0-17.0 A8-A17 & M1+M2. (Currently only tested tested on versions 15.0-17.0)
+WARNING: By using this software, you take full responsibility for what you do with it. Any modification to your device may cause irreparable damage to your device. The Bootstrap currently does not work on iOS 17.0 for A15+ devices.",
+            "iconURL": "https://github.com/roothide/Bootstrap/blob/main/Bootstrap/Assets.xcassets/AppIcon.appiconset/icon-1024.png",
             "tintColor": "#F54F32",
             "screenshotURLs": [
                 "LINK_TO_SCREENSHOT_1.png",
