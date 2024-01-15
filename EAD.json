@@ -35,7 +35,7 @@
     },
     {
       "name": "Helium",
-      "bundleIdentifier": "SECOND.APP.BUNDLE.ID",
+      "bundleIdentifier": "",
       "developerName": "leminlimez",
       "subtitle": "",
       "localizedDescription": "",
@@ -60,7 +60,7 @@
     },
     {
       "name": "BHTwitter",
-      "bundleIdentifier": "BHTWITTER.BUNDLE.ID",
+      "bundleIdentifier": "",
       "developerName": "BandarHL",
       "subtitle": "",
       "localizedDescription": "",
@@ -82,7 +82,7 @@
     },
     {
       "name": "Winston",
-      "bundleIdentifier": "WINSTON.BUNDLE.ID",
+      "bundleIdentifier": "",
       "developerName": "lo-cafe",
       "subtitle": "",
       "localizedDescription": "",
@@ -98,6 +98,31 @@
           "date": "∞",
           "localizedDescription": "Latest release of Winston.",
           "downloadURL": "https://github.com/lo-cafe/winston/releases/latest/download/winston.ipa",
+          "size": 12345678,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {}
+    },
+    {
+      "name": "Geranium",
+      "bundleIdentifier": "",
+      "developerName": "c22dev",
+      "subtitle": "",
+      "localizedDescription": "",
+      "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196537605777522808/geranium.png",
+      "tintColor": "#FF0000",
+      "screenshotURLs": [
+        "LINK_TO_SCREENSHOT_7.png",
+        "LINK_TO_SCREENSHOT_8.png"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "∞",
+          "localizedDescription": "Latest release of Geranium.",
+          "downloadURL": "https://github.com/c22dev/Geranium/releases/latest/download/Geranium.tipa",
           "size": 12345678,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
