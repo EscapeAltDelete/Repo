@@ -12,8 +12,8 @@
       "name": "Bootstrap",
       "bundleIdentifier": "",
       "developerName": "Roothide",
-      "subtitle": "A full-featured bootstrap for iOS 14.0-17.0 A8-A17 & M1+M2.",
-      "localizedDescription": "A full-featured bootstrap for iOS 14.0-17.0 A8-A17 & M1+M2. (Currently only tested on versions 15.0-17.0) WARNING: By using this software, you take full responsibility for what you do with it. Any modification to your device may cause irreparable damage to your device. The Bootstrap currently does not work on iOS 17.0 for A15+ devices.",
+      "subtitle": "",
+      "localizedDescription": "",
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196130253911887872/icon-1024.png",
       "tintColor": "#F54F32",
       "screenshotURLs": [
