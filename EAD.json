@@ -10,7 +10,7 @@
   "apps": [
     {
       "name": "Bootstrap",
-      "bundleIdentifier": "",
+      "bundleIdentifier": "Bootstrap",
       "developerName": "Roothide",
       "subtitle": "",
       "localizedDescription": "",
@@ -35,7 +35,7 @@
     },
     {
       "name": "Helium",
-      "bundleIdentifier": "",
+      "bundleIdentifier": "Helium",
       "developerName": "leminlimez",
       "subtitle": "",
       "localizedDescription": "",
@@ -60,7 +60,7 @@
     },
     {
       "name": "BHTwitter",
-      "bundleIdentifier": "",
+      "bundleIdentifier": "BHTwitter",
       "developerName": "BandarHL",
       "subtitle": "",
       "localizedDescription": "",
@@ -82,7 +82,7 @@
     },
     {
       "name": "Winston",
-      "bundleIdentifier": "",
+      "bundleIdentifier": "Winston",
       "developerName": "lo-cafe",
       "subtitle": "",
       "localizedDescription": "",
@@ -107,7 +107,7 @@
     },
     {
       "name": "Geranium",
-      "bundleIdentifier": "",
+      "bundleIdentifier": "Geranium",
       "developerName": "c22dev",
       "subtitle": "",
       "localizedDescription": "",
