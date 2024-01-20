@@ -129,6 +129,31 @@
         }
       ],
       "appPermissions": {}
+    },
+    {
+      "name": "TrollLEDs",
+      "bundleIdentifier": "TrollLEDs",
+      "developerName": "PoomSmart",
+      "subtitle": "",
+      "localizedDescription": "",
+      "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1198410921647820840/AppIcon76x762xipad.png", 
+      "tintColor": "#FF0000", 
+      "screenshotURLs": [
+        "LINK_TO_SCREENSHOT_5.png", 
+        "LINK_TO_SCREENSHOT_6.png"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "∞",
+          "localizedDescription": "Latest release of Winston.",
+          "downloadURL": "https://github.com/PoomSmart/TrollLEDs/releases/latest/download/TrollLEDs.tipa",
+          "size": 12345678,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {}
     }
   ],
   "news": []
