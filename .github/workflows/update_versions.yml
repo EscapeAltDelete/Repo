@@ -27,7 +27,6 @@ jobs:
             
             echo "Updating $APP_NAME..."
             RELEASE_INFO=$(curl -s "https://api.github.com/repos/$OWNER/$APP_NAME/releases/latest")
-            echo "API Response: $RELEASE_INFO"
             
             if [ "$(echo "$RELEASE_INFO" | jq -r '.message')" == "Not Found" ]; then
               echo "No releases found for $APP_NAME."
@@ -35,10 +34,8 @@ jobs:
             fi
             
             VERSION=$(echo "$RELEASE_INFO" | jq -r ".tag_name")
-            echo "Latest version for $APP_NAME: $VERSION"
-            
             sed -i "/\"name\": \"$APP_NAME\"/,/\"version\":/s/\"version\": \".*\"/\"version\": \"$VERSION\"/" EAD.json
-            echo "Update complete for $APP_NAME."
+            echo "Update complete for $APP_NAME. Latest version: $VERSION"
           done
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
