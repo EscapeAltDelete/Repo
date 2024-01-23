@@ -27,12 +27,17 @@ jobs:
         winston_version=$(curl -s https://api.github.com/repos/lo-cafe/winston/releases/latest | jq -r '.tag_name')
         geranium_version=$(curl -s https://api.github.com/repos/c22dev/Geranium/releases/latest | jq -r '.tag_name')
 
-        # Update EAD.json with the latest release versions
-        sed -i 's/"name": "Bootstrap",.*"version": "∞"/"name": "Bootstrap",\n      "version": "'"$bootstrap_version"'"/' EAD.json
-        sed -i 's/"name": "Helium",.*"version": "∞"/"name": "Helium",\n      "version": "'"$helium_version"'"/' EAD.json
-        sed -i 's/"name": "BHTwitter",.*"version": "∞"/"name": "BHTwitter",\n      "version": "'"$bhtwitter_version"'"/' EAD.json
-        sed -i 's/"name": "Winston",.*"version": "∞"/"name": "Winston",\n      "version": "'"$winston_version"'"/' EAD.json
-        sed -i 's/"name": "Geranium",.*"version": "∞"/"name": "Geranium",\n      "version": "'"$geranium_version"'"/' EAD.json
-        git commit -am "Update EAD.json with latest versions" && git push
+        # Check if there are changes
+        if [[ -n $(git status -s) ]]; then
+          # Update EAD.json with the latest release versions
+          sed -i 's/"name": "Bootstrap",.*"version": "∞"/"name": "Bootstrap",\n      "version": "'"$bootstrap_version"'"/' EAD.json
+          sed -i 's/"name": "Helium",.*"version": "∞"/"name": "Helium",\n      "version": "'"$helium_version"'"/' EAD.json
+          sed -i 's/"name": "BHTwitter",.*"version": "∞"/"name": "BHTwitter",\n      "version": "'"$bhtwitter_version"'"/' EAD.json
+          sed -i 's/"name": "Winston",.*"version": "∞"/"name": "Winston",\n      "version": "'"$winston_version"'"/' EAD.json
+          sed -i 's/"name": "Geranium",.*"version": "∞"/"name": "Geranium",\n      "version": "'"$geranium_version"'"/' EAD.json
+
+          # Commit and push the changes
+          git commit -am "Update EAD.json with latest versions" && git push
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
