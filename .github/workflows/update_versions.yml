@@ -23,7 +23,7 @@ jobs:
           for APP_NAME in "${REPOS[@]}"; do
             RELEASE_INFO=$(curl -s "https://api.github.com/repos/$APP_NAME/releases/latest")
             VERSION=$(echo "$RELEASE_INFO" | jq -r ".tag_name")
-            sed -i.bak "s/\"version\": \".*\"/\"version\": \"$VERSION\"/" EAD.json
+            sed -i "s/\"version\": \".*\"/\"version\": \"$VERSION\"/;/\"name\": \"$APP_NAME\"/,/}/s/\"version\": \".*\"/\"version\": \"$VERSION\"/" EAD.json
           done
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
