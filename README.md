@@ -7,3 +7,9 @@
 - [BHTwitter](https://github.com/BandarHL/BHTwitter) by BandarHL
 - [Winston](https://github.com/lo-cafe/winston) by lo-cafe
 - [Geranium](https://github.com/c22dev/Geranium) by c22dev
+
+---
+### Repository Information:
+
+This repository provides the latest releases of the listed applications. However, please note that I cannot provide support for these applications. For assistance or inquiries, kindly visit the respective GitHub repositories of the developers.
+---
