@@ -1,0 +1,36 @@
+name: Update Versions
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run every day at midnight
+
+jobs:
+  update-versions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+
+      - name: Run Update Script
+        run: |
+          # Fetch latest release information using GitHub API
+          for APP_NAME in "Bootstrap" "Helium" "BHTwitter" "Winston" "Geranium"; do
+            RELEASE_INFO=$(curl -s "https://api.github.com/repos/roothide/$APP_NAME/releases/latest")
+            VERSION=$(echo "$RELEASE_INFO" | jq -r ".tag_name")
+            DOWNLOAD_URL=$(echo "$RELEASE_INFO" | jq -r ".assets[0].browser_download_url")
+
+            # Update the JSON file
+            jq --argjson VERSION "$VERSION" --argjson DOWNLOAD_URL "$DOWNLOAD_URL" \
+               '.apps[] | select(.name == $APP_NAME) | .versions[0].version = $VERSION | .versions[0].downloadURL = $DOWNLOAD_URL' \
+               EAD.json > updated_EAD.json
+
+            mv updated_EAD.json EAD.json
+          done
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
