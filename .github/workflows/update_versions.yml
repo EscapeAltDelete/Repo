@@ -37,5 +37,14 @@ jobs:
             sed -i "/\"name\": \"$APP_NAME\"/{N;s/\"version\": \"[^\"]*\"/\"version\": \"$VERSION\"/}" EAD.json
             echo "Update complete for $APP_NAME. Latest version: $VERSION"
           done
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add EAD.json
+          git commit -m "Update versions [skip ci]"
+          git push
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
