@@ -12,8 +12,7 @@
       "name": "Bootstrap",
       "bundleIdentifier": "Bootstrap",
       "developerName": "Roothide",
-      "subtitle": "",
-      "localizedDescription": "",
+      "localizedDescription": "Latest release of Bootstrap.",
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196130253911887872/icon-1024.png",
       "tintColor": "#F54F32",
       "screenshotURLs": [
@@ -37,8 +36,7 @@
       "name": "Helium",
       "bundleIdentifier": "Helium",
       "developerName": "leminlimez",
-      "subtitle": "",
-      "localizedDescription": "",
+      "localizedDescription": "Latest release of Helium.",
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196130253605711932/icon.png",
       "tintColor": "#3366CC",
       "screenshotURLs": [
@@ -62,8 +60,7 @@
       "name": "BHTwitter",
       "bundleIdentifier": "BHTwitter",
       "developerName": "BandarHL",
-      "subtitle": "",
-      "localizedDescription": "",
+      "localizedDescription": "Latest release of BHTwitter.",
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196191093792981086/icon-ios.77d25eba.png",
       "tintColor": "#FF5733",
       "screenshotURLs": [],
@@ -84,8 +81,7 @@
       "name": "Winston",
       "bundleIdentifier": "Winston",
       "developerName": "lo-cafe",
-      "subtitle": "",
-      "localizedDescription": "",
+      "localizedDescription": "Latest release of Winston.",
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196195844400087271/icon-512.png", 
       "tintColor": "#FF0000", 
       "screenshotURLs": [
@@ -109,8 +105,7 @@
       "name": "Geranium",
       "bundleIdentifier": "Geranium",
       "developerName": "c22dev",
-      "subtitle": "",
-      "localizedDescription": "",
+      "localizedDescription": "Latest release of Geranium.",
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196537605777522808/geranium.png",
       "tintColor": "#FF0000",
       "screenshotURLs": [
@@ -129,7 +124,7 @@
         }
       ],
       "appPermissions": {}
-    },
+    }
   ],
   "news": []
 }
