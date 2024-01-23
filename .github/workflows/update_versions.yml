@@ -22,9 +22,12 @@ jobs:
         run: |
           REPOS=("Bootstrap" "Helium" "BHTwitter" "Winston" "Geranium")
           for APP_NAME in "${REPOS[@]}"; do
+            echo "Updating $APP_NAME..."
             RELEASE_INFO=$(curl -s "https://api.github.com/repos/$APP_NAME/releases/latest")
             VERSION=$(echo "$RELEASE_INFO" | jq -r ".tag_name")
+            echo "Latest version for $APP_NAME: $VERSION"
             sed -i "s/\"version\": \".*\"/\"version\": \"$VERSION\"/;/\"name\": \"$APP_NAME\"/,/}/s/\"version\": \".*\"/\"version\": \"$VERSION\"/" EAD.json
+            echo "Update complete for $APP_NAME."
           done
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
