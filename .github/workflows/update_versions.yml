@@ -2,7 +2,7 @@ name: Update EAD.json
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Run every day at midnight
+    - cron: '0 0 * * *'
 
 jobs:
   update-eaddetails:
@@ -32,8 +32,6 @@ jobs:
         sed -i 's/"name": "BHTwitter",.*"version": "∞"/"name": "BHTwitter",\n      "version": "'"$bhtwitter_version"'"/' EAD.json
         sed -i 's/"name": "Winston",.*"version": "∞"/"name": "Winston",\n      "version": "'"$winston_version"'"/' EAD.json
         sed -i 's/"name": "Geranium",.*"version": "∞"/"name": "Geranium",\n      "version": "'"$geranium_version"'"/' EAD.json
-
-        # Commit and push the changes
         git commit -am "Update EAD.json with latest versions" && git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
