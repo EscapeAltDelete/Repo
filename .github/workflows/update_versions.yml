@@ -37,7 +37,7 @@ jobs:
             VERSION=$(echo "$RELEASE_INFO" | jq -r ".tag_name")
             echo "Latest version for $APP_NAME: $VERSION"
             
-            sed -i "s/\"version\": \".*\"/\"version\": \"$VERSION\"/;/\"name\": \"$APP_NAME\"/,/}/s/\"version\": \".*\"/\"version\": \"$VERSION\"/" EAD.json
+            sed -i "/\"name\": \"$APP_NAME\"/,/\"version\":/s/\"version\": \".*\"/\"version\": \"$VERSION\"/" EAD.json
             echo "Update complete for $APP_NAME."
           done
         env:
