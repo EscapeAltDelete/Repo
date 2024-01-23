@@ -20,16 +20,13 @@ jobs:
       - name: Run Update Script
         run: |
           # Fetch latest release information using GitHub API
-          for APP_NAME in "Bootstrap" "Helium" "BHTwitter" "Winston" "Geranium"; do
-            RELEASE_INFO=$(curl -s "https://api.github.com/repos/roothide/$APP_NAME/releases/latest")
+          REPOS=("Bootstrap" "Helium" "BHTwitter" "Winston" "Geranium")
+          for APP_NAME in "${REPOS[@]}"; do
+            RELEASE_INFO=$(curl -s "https://api.github.com/repos/$APP_NAME/releases/latest")
             VERSION=$(echo "$RELEASE_INFO" | jq -r ".tag_name")
 
             # Update the version in the JSON file
-            jq --argjson VERSION "$VERSION" \
-               '.apps[] | select(.name == $APP_NAME) | .versions[0].version = $VERSION' \
-               EAD.json > updated_EAD.json
-
-            mv updated_EAD.json EAD.json
+            sed -i.bak "s/\"version\": \".*\"/\"version\": \"$VERSION\"/" EAD.json
           done
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
