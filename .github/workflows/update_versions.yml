@@ -24,6 +24,7 @@ jobs:
           for APP_NAME in "${REPOS[@]}"; do
             echo "Updating $APP_NAME..."
             RELEASE_INFO=$(curl -s "https://api.github.com/repos/$APP_NAME/releases/latest")
+            echo "API Response: $RELEASE_INFO"  # Add this line for debug
             VERSION=$(echo "$RELEASE_INFO" | jq -r ".tag_name")
             echo "Latest version for $APP_NAME: $VERSION"
             sed -i "s/\"version\": \".*\"/\"version\": \"$VERSION\"/;/\"name\": \"$APP_NAME\"/,/}/s/\"version\": \".*\"/\"version\": \"$VERSION\"/" EAD.json
