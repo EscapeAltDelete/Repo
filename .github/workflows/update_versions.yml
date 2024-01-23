@@ -20,13 +20,23 @@ jobs:
 
       - name: Run Update Script
         run: |
-          REPOS=("Bootstrap" "Helium" "BHTwitter" "Winston" "Geranium")
-          for APP_NAME in "${REPOS[@]}"; do
+          REPOS=("Bootstrap:roothide" "Helium:leminlimez" "BHTwitter:BandarHL" "Winston:lo-cafe" "Geranium:c22dev")
+          for REPO_INFO in "${REPOS[@]}"; do
+            APP_NAME=$(echo $REPO_INFO | cut -d':' -f1)
+            OWNER=$(echo $REPO_INFO | cut -d':' -f2)
+            
             echo "Updating $APP_NAME..."
-            RELEASE_INFO=$(curl -s "https://api.github.com/repos/$APP_NAME/releases/latest")
-            echo "API Response: $RELEASE_INFO"  # Add this line for debug
+            RELEASE_INFO=$(curl -s "https://api.github.com/repos/$OWNER/$APP_NAME/releases/latest")
+            echo "API Response: $RELEASE_INFO"
+            
+            if [ "$(echo "$RELEASE_INFO" | jq -r '.message')" == "Not Found" ]; then
+              echo "No releases found for $APP_NAME."
+              continue
+            fi
+            
             VERSION=$(echo "$RELEASE_INFO" | jq -r ".tag_name")
             echo "Latest version for $APP_NAME: $VERSION"
+            
             sed -i "s/\"version\": \".*\"/\"version\": \"$VERSION\"/;/\"name\": \"$APP_NAME\"/,/}/s/\"version\": \".*\"/\"version\": \"$VERSION\"/" EAD.json
             echo "Update complete for $APP_NAME."
           done
