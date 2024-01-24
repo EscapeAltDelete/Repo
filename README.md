@@ -1,4 +1,4 @@
-## EAD's Source
+# EAD's Source
 
 ![EAD's Source](https://cdn.discordapp.com/attachments/1019354023163351050/1196130674101465129/4x.png)
 
