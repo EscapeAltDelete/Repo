@@ -16,8 +16,8 @@
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196130253911887872/icon-1024.png",
       "tintColor": "#F54F32",
       "screenshotURLs": [
-"https://raster.shields.io/github/v/release/roothide/Bootstrap.png?label=&style=flat-square&color=black",
-],
+        "https://raster.shields.io/github/v/release/roothide/Bootstrap.png?label=&style=flat-square&color=black",
+      ],
       "versions": [
         {
           "version": "∞",
@@ -38,7 +38,9 @@
       "localizedDescription": "Latest release of Helium.",
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196130253605711932/icon.png",
       "tintColor": "#3366CC",
-      "screenshotURLs": [],
+      "screenshotURLs": [
+        "https://raster.shields.io/github/v/release/leminlimez/Helium.png?label=&style=flat-square&color=black",
+      ],
       "versions": [
         {
           "version": "∞",
@@ -59,7 +61,9 @@
       "localizedDescription": "Latest release of BHTwitter.",
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196191093792981086/icon-ios.77d25eba.png",
       "tintColor": "#FF5733",
-      "screenshotURLs": [],
+      "screenshotURLs": [
+"https://raster.shields.io/github/v/release/BandarHL/BHTwitter.png?label=&style=flat-square&color=black",
+      ],
       "versions": [
         {
           "version": "∞",
@@ -80,7 +84,9 @@
       "localizedDescription": "Latest release of Winston.",
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196195844400087271/icon-512.png", 
       "tintColor": "#FF0000", 
-      "screenshotURLs": [],
+      "screenshotURLs": [
+        "https://raster.shields.io/github/v/release/lo-cafe/Winston.png?label=&style=flat-square&color=black",
+      ],
       "versions": [
         {
           "version": "∞",
@@ -101,7 +107,9 @@
       "localizedDescription": "Latest release of Geranium.",
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196537605777522808/geranium.png",
       "tintColor": "#FF0000",
-      "screenshotURLs": [],
+      "screenshotURLs": [
+        "https://raster.shields.io/github/v/release/c22dev/Geranium.png?label=&style=flat-square&color=black",
+      ],
       "versions": [
         {
           "version": "∞",
