@@ -12,7 +12,7 @@
       "name": "Bootstrap",
       "bundleIdentifier": "Bootstrap",
       "developerName": "Roothide",
-      "localizedDescription": "Latest release of Bootstrap.",
+      "localizedDescription": "",
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196130253911887872/icon-1024.png",
       "tintColor": "#F54F32",
       "screenshotURLs": [],
@@ -20,7 +20,7 @@
         {
           "version": "∞",
           "date": "∞",
-          "localizedDescription": "test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test ",
+          "localizedDescription": "Latest release of Bootstrap.",
           "downloadURL": "https://github.com/roothide/Bootstrap/releases/latest/download/Bootstrap.tipa",
           "size": 0,
           "minOSVersion": "14.0",
