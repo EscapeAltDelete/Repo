@@ -111,7 +111,7 @@
           "maxOSVersion": "17.0"
         }
       ],
-      "appPermissions": {"test"}
+      "appPermissions": {}
     }
   ],
   "news": []
