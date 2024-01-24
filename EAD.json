@@ -6,7 +6,7 @@
   "headerURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196130674101465129/4x.png",
   "website": "https://github.com/EscapeAltDelete/Source",
   "tintColor": "#F54F32",
-  "featuredApps": ["Bootstrap", "Helium", "BHTwitter", "Winston", "Geranium"],
+  "featuredApps": [],
   "apps": [
     {
       "name": "Bootstrap",
@@ -111,7 +111,7 @@
           "maxOSVersion": "17.0"
         }
       ],
-      "appPermissions": {}
+      "appPermissions": {"test"}
     }
   ],
   "news": []
