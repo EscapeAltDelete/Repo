@@ -12,11 +12,11 @@
       "name": "Bootstrap",
       "bundleIdentifier": "Bootstrap",
       "developerName": "Roothide",
-      "localizedDescription": "Latest release of Bootstrap btw.",
+      "localizedDescription": "Latest release of Bootstrap btw. https://img.shields.io/github/release/roothide/Bootstrap.svg",
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196130253911887872/icon-1024.png",
       "tintColor": "#F54F32",
       "screenshotURLs": [
-"https://img.shields.io/github/release/roothide/Bootstrap.svg",
+"[![Latest Release](https://img.shields.io/github/release/roothide/Bootstrap.svg)](https://github.com/roothide/Bootstrap/releases/latest)",
 ],
       "versions": [
         {
