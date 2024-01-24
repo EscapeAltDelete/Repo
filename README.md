@@ -2,11 +2,11 @@
 
 ![EAD's Source](https://cdn.discordapp.com/attachments/1019354023163351050/1196130674101465129/4x.png)
 
-- [Bootstrap by Roothide](https://github.com/roothide/Bootstrap) ![buh](https://img.shields.io/github/release/roothide/Bootstrap.png?label=&style=flat-square&color=black)
-- [Helium by leminlimez](https://github.com/leminlimez/Helium) ![buh](https://img.shields.io/github/release/leminlimez/Helium.png?label=&style=flat-square&color=black)
-- [BHTwitter by BandarHL](https://github.com/BandarHL/BHTwitter) ![buh](https://img.shields.io/github/release/BandarHL/BHTwitter.png?label=&style=flat-square&color=black)
-- [Winston by lo-cafe](https://github.com/lo-cafe/winston) ![buh](https://img.shields.io/github/release/lo-cafe/winston.png?label=&style=flat-square&color=black)
-- [Geranium by c22dev](https://github.com/c22dev/Geranium) ![buh](https://img.shields.io/github/release/c22dev/Geranium.png?label=&style=flat-square&color=black)
+- [Bootstrap](https://github.com/roothide/Bootstrap) ![buh](https://img.shields.io/github/release/roothide/Bootstrap.png?label=&style=flat-square&color=black) by Roothide
+- [Helium](https://github.com/leminlimez/Helium) ![buh](https://img.shields.io/github/release/leminlimez/Helium.png?label=&style=flat-square&color=black) by leminlimez
+- [BHTwitter](https://github.com/BandarHL/BHTwitter) ![buh](https://img.shields.io/github/release/BandarHL/BHTwitter.png?label=&style=flat-square&color=black) by BandarHL
+- [Winston](https://github.com/lo-cafe/winston) ![buh](https://img.shields.io/github/release/lo-cafe/winston.png?label=&style=flat-square&color=black) by lo-cafe
+- [Geranium](https://github.com/c22dev/Geranium) ![buh](https://img.shields.io/github/release/c22dev/Geranium.png?label=&style=flat-square&color=black) by c22dev
 
 ### Repository Information
 This repository provides the latest releases of the featured IPA's.
