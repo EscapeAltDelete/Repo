@@ -12,10 +12,10 @@
 
 ### Repository Information:
 
-This repository provides the latest releases of the featured applications.
+This repository provides the latest releases of the featured IPA's.
 
 ### Disclaimer:
-I am not the creator of these applications and, therefore, cannot provide support for them. For any bug reports, support or issues, visit the respective GitHub repositories of the developers.
+I am not the creator of these IPA's and, therefore, cannot provide support for them. For any bug reports, support or issues, visit the respective GitHub repositories of the developers.
 
 ---
 
