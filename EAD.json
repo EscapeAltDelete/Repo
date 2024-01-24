@@ -28,8 +28,7 @@
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
-      ],
-      "appPermissions": {}
+      ]
     },
     {
       "name": "Helium",
@@ -51,8 +50,7 @@
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
-      ],
-      "appPermissions": {}
+      ]
     },
     {
       "name": "BHTwitter",
@@ -74,8 +72,7 @@
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
-      ],
-      "appPermissions": {}
+      ]
     },
     {
       "name": "Winston",
@@ -97,8 +94,7 @@
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
-      ],
-      "appPermissions": {}
+      ]
     },
     {
       "name": "Geranium",
@@ -120,8 +116,7 @@
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
-      ],
-      "appPermissions": {}
+      ]
     }
   ]
 }
