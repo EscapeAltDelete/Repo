@@ -1,9 +1,9 @@
 {
-  "name": "EAD's Source",
-  "subtitle": "Source for EAD",
-  "description": "",
+  "name": "EscapeAltDelete",
+  "subtitle": "EAD's repo",
+  "description": "EAD's repo",
   "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196130674101465129/4x.png",
-  "headerURL": "",
+  "headerURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196130674101465129/4x.png",
   "website": "https://github.com/EscapeAltDelete/Source",
   "tintColor": "#F54F32",
   "featuredApps": [],
@@ -15,10 +15,7 @@
       "localizedDescription": "Latest release of Bootstrap.",
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196130253911887872/icon-1024.png",
       "tintColor": "#F54F32",
-      "screenshotURLs": [
-        "LINK_TO_SCREENSHOT_1.png",
-        "LINK_TO_SCREENSHOT_2.png"
-      ],
+      "screenshotURLs": [],
       "versions": [
         {
           "version": "∞",
@@ -39,10 +36,7 @@
       "localizedDescription": "Latest release of Helium.",
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196130253605711932/icon.png",
       "tintColor": "#3366CC",
-      "screenshotURLs": [
-        "LINK_TO_SCREENSHOT_3.png",
-        "LINK_TO_SCREENSHOT_4.png"
-      ],
+      "screenshotURLs": [],
       "versions": [
         {
           "version": "∞",
@@ -84,10 +78,7 @@
       "localizedDescription": "Latest release of Winston.",
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196195844400087271/icon-512.png", 
       "tintColor": "#FF0000", 
-      "screenshotURLs": [
-        "LINK_TO_SCREENSHOT_5.png", 
-        "LINK_TO_SCREENSHOT_6.png"
-      ],
+      "screenshotURLs": [],
       "versions": [
         {
           "version": "∞",
@@ -108,10 +99,7 @@
       "localizedDescription": "Latest release of Geranium.",
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196537605777522808/geranium.png",
       "tintColor": "#FF0000",
-      "screenshotURLs": [
-        "LINK_TO_SCREENSHOT_7.png",
-        "LINK_TO_SCREENSHOT_8.png"
-      ],
+      "screenshotURLs": [],
       "versions": [
         {
           "version": "∞",
