@@ -16,11 +16,11 @@
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196130253911887872/icon-1024.png",
       "tintColor": "#F54F32",
       "screenshotURLs": [
-"https://raster.shields.io/github/v/release/roothide/Bootstrap.png?label=",
+"https://raster.shields.io/github/v/release/roothide/Bootstrap.png?label=&style=flat-square&color=black",
 ],
       "versions": [
         {
-          "version": "https://raster.shields.io/github/v/release/roothide/Bootstrap.png?label=",
+          "version": "∞",
           "date": "",
           "localizedDescription": "Latest release of Bootstrap.",
           "downloadURL": "https://github.com/roothide/Bootstrap/releases/latest/download/Bootstrap.tipa",
