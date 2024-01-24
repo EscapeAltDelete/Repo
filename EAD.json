@@ -1,5 +1,5 @@
 {
-  "name": "EAD's repo",
+  "name": "EscapeAltDelete",
   "subtitle": "EAD's repo",
   "description": "EAD's repo",
   "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196130674101465129/4x.png",
@@ -21,8 +21,10 @@
       "versions": [
         {
           "version": "∞",
+          "date": "",
           "localizedDescription": "Latest release of Bootstrap.",
           "downloadURL": "https://github.com/roothide/Bootstrap/releases/latest/download/Bootstrap.tipa",
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
@@ -41,8 +43,10 @@
       "versions": [
         {
           "version": "∞",
+          "date": "",
           "localizedDescription": "Latest release of Helium.",
           "downloadURL": "https://github.com/leminlimez/Helium/releases/latest/download/Helium.tipa",
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
@@ -61,8 +65,10 @@
       "versions": [
         {
           "version": "∞",
+          "date": "",
           "localizedDescription": "Latest release of BHTwitter.",
           "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/latest/download/BHTwitter-trollstore.tipa",
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
@@ -81,8 +87,10 @@
       "versions": [
         {
           "version": "∞",
+          "date": "",
           "localizedDescription": "Latest release of Winston.",
           "downloadURL": "https://github.com/lo-cafe/winston/releases/latest/download/winston.ipa",
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
@@ -101,8 +109,10 @@
       "versions": [
         {
           "version": "∞",
+          "date": "",
           "localizedDescription": "Latest release of Geranium.",
           "downloadURL": "https://github.com/c22dev/Geranium/releases/latest/download/Geranium.tipa",
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
