@@ -8,7 +8,7 @@
 - [Winston](https://github.com/lo-cafe/winston) [![Latest Release](https://img.shields.io/github/release/lo-cafe/winston.svg)](https://github.com/lo-cafe/winston/releases/latest) by lo-cafe 
 - [Geranium](https://github.com/c22dev/Geranium) [![Latest Release](https://img.shields.io/github/release/c22dev/Geranium.svg)](https://github.com/c22dev/Geranium/releases/latest) by c22dev 
 
---
+---
 
 ### Repository Information:
 
@@ -17,7 +17,7 @@ This repository provides the latest releases of the featured IPA's.
 ### Disclaimer:
 I am not the creator of these IPA's and, therefore, cannot provide support for them. For any bug reports, support or issues, visit the respective GitHub repositories of the developers.
 
---
+---
 
 ### Error message
 
@@ -25,4 +25,4 @@ If you are using version 2.1 or an earlier version, you might come across this e
 
 ![Error Message](https://cdn.discordapp.com/attachments/1019354023163351050/1199524596282556416/IMG_0829.png)
 
---
+---
