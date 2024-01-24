@@ -14,10 +14,12 @@
 
 This repository provides the latest releases of the featured applications.
 
-#### Disclaimer:
+### Disclaimer:
 I am not the creator of these applications and, therefore, cannot provide support for them. For any bug reports, support or issues, visit the respective GitHub repositories of the developers.
 
 ---
+
+### Error message
 
 If you are using version 2.1 or an earlier version, you might come across this error message. Please just ignore it, as the installation is successfully even though it says otherwise.
 
