@@ -2,7 +2,7 @@
 
 ![EAD's Source](https://cdn.discordapp.com/attachments/1019354023163351050/1196130674101465129/4x.png)
 
-- [Bootstrap by Roothide](https://github.com/roothide/Bootstrap) [![Latest Release](https://img.shields.io/github/release/roothide/Bootstrap.svg)](https://github.com/roothide/Bootstrap/releases/latest)
+- [Bootstrap by Roothide](https://github.com/roothide/Bootstrap) [![Latest Release](https://img.shields.io/github/release/roothide/Bootstrap.png)](https://github.com/roothide/Bootstrap/releases/latest)
 - [Helium by leminlimez](https://github.com/leminlimez/Helium) [![Latest Release](https://img.shields.io/github/release/leminlimez/Helium.svg)](https://github.com/leminlimez/Helium/releases/latest)
 - [BHTwitter by BandarHL](https://github.com/BandarHL/BHTwitter) [![Latest Release](https://img.shields.io/github/release/BandarHL/BHTwitter.svg)](https://github.com/BandarHL/BHTwitter/releases/latest)
 - [Winston by lo-cafe](https://github.com/lo-cafe/winston) [![Latest Release](https://img.shields.io/github/release/lo-cafe/winston.svg)](https://github.com/lo-cafe/winston/releases/latest)
