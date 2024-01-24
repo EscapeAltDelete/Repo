@@ -20,7 +20,7 @@ I am not the creator of these IPA's and, therefore, cannot provide support for t
 ---
 
 ### Error message
->
+> [!IMPORTANT]
 If you are using version 2.1 or an earlier version, you might come across this error message. Please just ignore it, as the installation is successfully even though it says otherwise.
 >
 ![Error Message](https://cdn.discordapp.com/attachments/1019354023163351050/1199524596282556416/IMG_0829.png)
