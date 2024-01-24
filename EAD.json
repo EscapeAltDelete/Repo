@@ -25,7 +25,7 @@
           "date": "∞",
           "localizedDescription": "Latest release of Bootstrap.",
           "downloadURL": "https://github.com/roothide/Bootstrap/releases/latest/download/Bootstrap.tipa",
-          "size": 51600000,
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
@@ -49,7 +49,7 @@
           "date": "∞",
           "localizedDescription": "Latest release of Helium.",
           "downloadURL": "https://github.com/leminlimez/Helium/releases/latest/download/Helium.tipa",
-          "size": 12345678,
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
@@ -70,7 +70,7 @@
           "date": "∞",
           "localizedDescription": "Latest release of BHTwitter.",
           "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/latest/download/BHTwitter-trollstore.tipa",
-          "size": 12345678,
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
@@ -94,7 +94,7 @@
           "date": "∞",
           "localizedDescription": "Latest release of Winston.",
           "downloadURL": "https://github.com/lo-cafe/winston/releases/latest/download/winston.ipa",
-          "size": 12345678,
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
@@ -118,7 +118,7 @@
           "date": "∞",
           "localizedDescription": "Latest release of Geranium.",
           "downloadURL": "https://github.com/c22dev/Geranium/releases/latest/download/Geranium.tipa",
-          "size": 12345678,
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
