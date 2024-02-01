@@ -122,7 +122,7 @@
       "name": "OTADisabler",
       "bundleIdentifier": "OTADisabler",
       "developerName": "ichitaso",
-      "localizedDescription": "version 1.1.0 of OTADisabler.",
+      "localizedDescription": "",
       "iconURL": "",
       "tintColor": "#FF0000",
       "screenshotURLs": [
@@ -132,9 +132,9 @@
         {
           "version": "1.1.0",
           "date": "",
-          "localizedDescription": "",
+          "localizedDescription": "version 1.1.0 of OTADisabler.",
           "downloadURL": "https://github.com/ichitaso/file/raw/main/OTADisabler_1.1.0.tipa",
-          "size": 10,
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
