@@ -148,7 +148,7 @@
       "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1205678910151458866/AppIcon-1024.png?ex=65d93efc&is=65c6c9fc&hm=de361f6b479c1b22c68aa2abfc836e4a99aac6cbe85f2a2a94a88b617e77079a&",
       "tintColor": "#FFFFFF",
       "screenshotURLs": [
-        "https://raster.shields.io/github/v/release/donato-fiore/TrollDecrypt.png?label=&style=flat-square&color=black"
+        "https://img.shields.io/github/release/donato-fiore/TrollDecrypt.png?label=&style=flat-square&color=black"
       ],
       "versions": [
         {
