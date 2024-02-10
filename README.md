@@ -7,7 +7,7 @@
 - [BHTwitter](https://github.com/BandarHL/BHTwitter) ![buh](https://img.shields.io/github/release/BandarHL/BHTwitter.png?label=&style=flat-square&color=black) by BandarHL
 - [Winston](https://github.com/lo-cafe/winston) ![buh](https://img.shields.io/github/release/lo-cafe/winston.png?label=&style=flat-square&color=black) by lo-cafe
 - [Geranium](https://github.com/c22dev/Geranium) ![buh](https://img.shields.io/github/release/c22dev/Geranium.png?label=&style=flat-square&color=black) by c22dev
-- [SwiftTop](https://github.com/BomberFish/SwiftTop) ![buh](https://img.shields.io/github/release/BomberFish/SwiftTop.png?label=&style=flat-square&color=black) by BomberFish
+- [SwiftTop](https://github.com/BomberFish/SwiftTop) ![buh](https://img.shields.io/github/release/tag/v0.3-p1/BomberFish/SwiftTop.png?label=&style=flat-square&color=black) by BomberFish
 - [TrollDecrypt](https://github.com/donato-fiore/TrollDecrypt) ![buh](https://raster.shields.io/github/v/release/donato-fiore/TrollDecrypt.png?label=&style=flat-square&color=black) by donato-fiore
 
 ### Repository Information
