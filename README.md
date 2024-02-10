@@ -12,7 +12,7 @@
 
 ### Repository Information
 I made this for myself but you can use it if you wan't.
-This repository provides the latest releases of the featured IPA's.
+This repository provides the latest release of the featured IPA's.
 ### Disclaimer
 I am not the creator of these IPA's and, therefore, cannot provide support for them. For any bug reports, support or issues, visit the respective GitHub repositories of the developers.
 ### Error message
