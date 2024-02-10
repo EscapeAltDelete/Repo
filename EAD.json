@@ -117,6 +117,50 @@
           "maxOSVersion": "17.0"
         }
       ]
+    },
+    {
+      "name": "SwiftTop",
+      "bundleIdentifier": "SwiftTop",
+      "developerName": "BomberFish",
+      "localizedDescription": "Latest release of SwiftTop.",
+      "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1205678218959388702/Noir.png?ex=65d93e57&is=65c6c957&hm=f28a3e54990ccf100914b2357b066ec424718aa970d000bdbe4e1c6a6b14d698&",
+      "tintColor": "#FFFFFF",
+      "screenshotURLs": [
+        ""
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of SwiftTop.",
+          "downloadURL": "https://github.com/BomberFish/SwiftTop/releases/download/v0.3-p1/SwiftTop.tipa",
+          "size": 0,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ]
+    },
+    {
+      "name": "TrollDecrypt",
+      "bundleIdentifier": "TrollDecrypt",
+      "developerName": "donato-fiore",
+      "localizedDescription": "Latest release of TrollDecrypt.",
+      "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1205678910151458866/AppIcon-1024.png?ex=65d93efc&is=65c6c9fc&hm=de361f6b479c1b22c68aa2abfc836e4a99aac6cbe85f2a2a94a88b617e77079a&",
+      "tintColor": "#FFFFFF",
+      "screenshotURLs": [
+        "https://raster.shields.io/github/v/release/donato-fiore/TrollDecrypt.png?label=&style=flat-square&color=black"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of TrollDecrypt.",
+          "downloadURL": "https://github.com/donato-fiore/TrollDecrypt/releases/latest/download/TrollDecrypt.tipa",
+          "size": 0,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ]
     }
   ]
 }
