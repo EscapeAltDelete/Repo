@@ -9,6 +9,7 @@
 - [Geranium](https://github.com/c22dev/Geranium) ![buh](https://img.shields.io/github/release/c22dev/Geranium.png?label=&style=flat-square&color=black) by c22dev
 
 ### Repository Information
+I made this for myself but you can use it if you wan't.
 This repository provides the latest releases of the featured IPA's.
 ### Disclaimer
 I am not the creator of these IPA's and, therefore, cannot provide support for them. For any bug reports, support or issues, visit the respective GitHub repositories of the developers.
