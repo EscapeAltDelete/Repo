@@ -8,7 +8,7 @@
 - [Winston](https://github.com/lo-cafe/winston) ![buh](https://img.shields.io/github/release/lo-cafe/winston.png?label=&style=flat-square&color=black) by lo-cafe
 - [Geranium](https://github.com/c22dev/Geranium) ![buh](https://img.shields.io/github/release/c22dev/Geranium.png?label=&style=flat-square&color=black) by c22dev
 - [SwiftTop](https://github.com/BomberFish/SwiftTop) ![buh](https://img.shields.io/badge/v0.3-black?style=flat-square) by BomberFish
-- [TrollDecrypt](https://github.com/donato-fiore/TrollDecrypt) ![buh](https://raster.shields.io/github/v/release/donato-fiore/TrollDecrypt.png?label=&style=flat-square&color=black) by donato-fiore
+- [TrollDecrypt](https://github.com/donato-fiore/TrollDecrypt) ![buh](https://img.shields.io/github/release/donato-fiore/TrollDecrypt.png?label=&style=flat-square&color=black) by donato-fiore
 
 ### Repository Information
 I made this for myself but you can use it if you wan't.
