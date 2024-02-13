@@ -14,7 +14,7 @@
 I made this for myself but you can use it if you wan't.
 This repository provides the latest release of the featured IPA's.
 ### Adding the repo
-1. Download and install TrollApps
+1. Download and install the TrollApps beta from [Here](https://discord.gg/8gBpgDuSnW)
 2. 
 3. 
 4. 
