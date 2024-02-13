@@ -14,7 +14,7 @@
 I made this for myself but you can use it if you wan't.
 This repository provides the latest release of the featured IPA's.
 ### Adding the repo
-1. Download and install the TrollApps beta from [Here](https://discord.gg/8gBpgDuSnW)
+1. Download and install the TrollApps beta from [Here](https://discord.gg/8gBpgDuSnW).
 2. Copy [this url](https://github.com/EscapeAltDelete/Source/raw/main/EAD.json) and paste it in the add repos section.
 ![add repos](https://media.discordapp.net/attachments/1019354023163351050/1207038150917095444/IMG_0880.png?ex=65de30e0&is=65cbbbe0&hm=44e65800a1e0360f2097801941df3e6a0ed8d86c2c4d9352a7831f7ee326897c&)
 ### Disclaimer
