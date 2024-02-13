@@ -14,7 +14,11 @@
 I made this for myself but you can use it if you wan't.
 This repository provides the latest release of the featured IPA's.
 ### Adding the repo
-https://github.com/EscapeAltDelete/Source/raw/main/EAD.json
+1. Download and install TrollApps
+2. 
+3. 
+4. 
+5. https://github.com/EscapeAltDelete/Source/raw/main/EAD.json
 ### Disclaimer
 I am not the creator of these IPA's and, therefore, cannot provide support for them. For any bug reports, support or issues, visit the respective GitHub repositories of the developers.
 ### Error message
