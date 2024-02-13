@@ -17,7 +17,7 @@ This repository provides the latest release of the featured IPA's.
 2. Copy [this url](https://github.com/EscapeAltDelete/Source/raw/main/EAD.json), and click on "Add repo from clipboard".
 ![add repos](https://media.discordapp.net/attachments/1019354023163351050/1207106879549997167/IMG_0881.png?ex=65de70e3&is=65cbfbe3&hm=4607aca015d54a2da777f18a94c2a670f598f4e92f83f505de08e279772691f6&)
 ### Disclaimer
-I am not the creator of these IPA's and, therefore, cannot provide support for them. For any bug reports, support or issues, visit the respective GitHub repositories of the developers.
+I am not the creator of these IPA's and, therefore, cannot provide support for them. For any bug reports or support, visit the respective GitHub repositories of the developers.
 ### Error message
 > [!NOTE] 
 If you are using version 2.1 or an earlier version of TrollApps, you might come across this error message. Please just ignore it, as the installation is successfully even though it says otherwise.
