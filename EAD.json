@@ -119,28 +119,6 @@
       ]
     },
     {
-      "name": "SwiftTop",
-      "bundleIdentifier": "SwiftTop",
-      "developerName": "BomberFish",
-      "localizedDescription": "Latest release of SwiftTop.",
-      "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1205678218959388702/Noir.png?ex=65d93e57&is=65c6c957&hm=f28a3e54990ccf100914b2357b066ec424718aa970d000bdbe4e1c6a6b14d698&",
-      "tintColor": "#FFFFFF",
-      "screenshotURLs": [
-        "https://img.shields.io/badge/v0.3-black?style=flat-square"
-      ],
-      "versions": [
-        {
-          "version": "∞",
-          "date": "",
-          "localizedDescription": "Latest release of SwiftTop.",
-          "downloadURL": "https://github.com/BomberFish/SwiftTop/releases/download/v0.3-p1/SwiftTop.tipa",
-          "size": 0,
-          "minOSVersion": "14.0",
-          "maxOSVersion": "17.0"
-        }
-      ]
-    },
-    {
       "name": "TrollDecrypt",
       "bundleIdentifier": "TrollDecrypt",
       "developerName": "donato-fiore",
