@@ -13,7 +13,7 @@
       "bundleIdentifier": "Bootstrap",
       "developerName": "Roothide",
       "localizedDescription": "Latest release of Bootstrap.",
-      "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196130253911887872/icon-1024.png",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Icons/Bootstrap.png",
       "tintColor": "#34495E",
       "screenshotURLs": [
         "https://raster.shields.io/github/v/release/roothide/Bootstrap.png?label=&style=flat-square&color=black"
@@ -35,7 +35,7 @@
       "bundleIdentifier": "Helium",
       "developerName": "leminlimez",
       "localizedDescription": "Latest release of Helium.",
-      "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196130253605711932/icon.png",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Icons/Helium.png",
       "tintColor": "#2E86C1",
       "screenshotURLs": [
         "https://raster.shields.io/github/v/release/leminlimez/Helium.png?label=&style=flat-square&color=black"
@@ -57,7 +57,7 @@
       "bundleIdentifier": "BHTwitter",
       "developerName": "BandarHL",
       "localizedDescription": "Latest release of BHTwitter.",
-      "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196191093792981086/icon-ios.77d25eba.png",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Icons/BHTwitter.png",
       "tintColor": "#922B21",
       "screenshotURLs": [
         "https://raster.shields.io/github/v/release/BandarHL/BHTwitter.png?label=&style=flat-square&color=black"
@@ -79,7 +79,7 @@
       "bundleIdentifier": "Winston",
       "developerName": "lo-cafe",
       "localizedDescription": "Latest release of Winston.",
-      "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196195844400087271/icon-512.png", 
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Icons/Winston.png", 
       "tintColor": "#5D6D7E",
       "screenshotURLs": [
         "https://raster.shields.io/github/v/release/lo-cafe/Winston.png?label=&style=flat-square&color=black"
@@ -101,7 +101,7 @@
       "bundleIdentifier": "Geranium",
       "developerName": "c22dev",
       "localizedDescription": "Latest release of Geranium.",
-      "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1196537605777522808/geranium.png",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Icons/Geranium.png",
       "tintColor": "#943126",
       "screenshotURLs": [
         "https://raster.shields.io/github/v/release/c22dev/Geranium.png?label=&style=flat-square&color=black"
@@ -123,7 +123,7 @@
       "bundleIdentifier": "TrollDecrypt",
       "developerName": "donato-fiore",
       "localizedDescription": "Latest release of TrollDecrypt.",
-      "iconURL": "https://cdn.discordapp.com/attachments/1019354023163351050/1205678910151458866/AppIcon-1024.png?ex=65d93efc&is=65c6c9fc&hm=de361f6b479c1b22c68aa2abfc836e4a99aac6cbe85f2a2a94a88b617e77079a&",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Icons/TrollDecrypt.png",
       "tintColor": "#FFFFFF",
       "screenshotURLs": [
         "https://img.shields.io/github/release/donato-fiore/TrollDecrypt.png?label=&style=flat-square&color=black"
