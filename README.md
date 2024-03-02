@@ -21,5 +21,5 @@ I am not the creator of these IPA's and, therefore, cannot provide support for t
 ### Error message
 > [!NOTE] 
 If you are using version 2.1 or an earlier version of TrollApps, you might come across this error message. Please just ignore it, as the installation is successfully even though it says otherwise.
-![Error Message](https://cdn.discordapp.com/attachments/1019354023163351050/1199561953346064464/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313031393335343032333136333335313035302f313139393532343539363238323535363431362f494d475f303832392e706e671.png)
+![Error Message](https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Icons/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f61747461.png)
 >
