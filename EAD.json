@@ -139,6 +139,28 @@
           "maxOSVersion": "17.0"
         }
       ]
+    },
+    {
+      "name": "NiceCaller",
+      "bundleIdentifier": "NiceCaller",
+      "developerName": "NiceIOS",
+      "localizedDescription": "atest release of NiceCaller.",
+      "iconURL": "https://path-to-nicecaller-icon.png",
+      "tintColor": "#FF5733",
+      "screenshotURLs": [
+        "https://example-screenshot-url.png"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of NiceCaller.",
+          "downloadURL": "https://global.niceios.com/trollapps/NiceCaller-Troll-Recording-appintents.ipa",
+          "size": 0,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ]
     }
   ]
 }
