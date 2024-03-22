@@ -18,7 +18,7 @@
             "size": 7206362,
             "type": 1
         },
-        
+
         {
             "name": "Helium",
             "bundleIdentifier": "Helium",
@@ -33,7 +33,8 @@
             "isLanZouCloud": 0,
             "size": 7206362,
             "type": 1
-        }
+        },
+
         {
             "name": "BHTwitter",
             "bundleIdentifier": "BHTwitter",
@@ -48,7 +49,8 @@
             "isLanZouCloud": 0,
             "size": 7206362,
             "type": 1
-        }
+        },
+
         {
             "name": "Winston",
             "bundleIdentifier": "Winston",
@@ -63,7 +65,8 @@
             "isLanZouCloud": 0,
             "size": 7206362,
             "type": 1
-        }
+        },
+
         {
             "name": "Geranium",
             "bundleIdentifier": "Geranium",
@@ -78,7 +81,8 @@
             "isLanZouCloud": 0,
             "size": 7206362,
             "type": 1
-        }
+        },
+        
         {
             "name": "TrollDecrypt",
             "bundleIdentifier": "TrollDecrypt",
