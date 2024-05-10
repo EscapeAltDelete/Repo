@@ -97,6 +97,21 @@
             "isLanZouCloud": 0,
             "size": 7206362,
             "type": 1
+        },
+        {
+            "name": "YTLitePlus",
+            "bundleIdentifier": "YTLitePlus",
+            "developerName": "Balackburn",
+            "version": "∞",
+            "versionDate": "2024-01-28T21:40:00+08:00",
+            "versionDescription": "Latest release of YTLitePlus",
+            "downloadURL": "https://github.com/EscapeAltDelete/Updater/releases/download/YTLitePlus/YTLitePlus.ipa",
+            "localizedDescription": "Latest release of YTLitePlus",
+            "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/YTLitePlus.png",
+            "tintColor": "018084",
+            "isLanZouCloud": 0,
+            "size": 7206362,
+            "type": 1
         }
     ]
 }
