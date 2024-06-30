@@ -31,21 +31,21 @@
       ]
     },
     {
-      "name": "Helium",
-      "bundleIdentifier": "Helium",
-      "developerName": "leminlimez",
-      "localizedDescription": "Latest release of Helium.",
-      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/Helium.png",
+      "name": "TwitchPlus",
+      "bundleIdentifier": "TwitchPlus",
+      "developerName": "level3tjg",
+      "localizedDescription": "Latest release of TwitchPlus.",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/TwitchPlus.png",
       "tintColor": "#2E86C1",
       "screenshotURLs": [
-        "https://raster.shields.io/github/v/release/leminlimez/Helium.png?label=&style=flat-square&color=black"
+        "https://raster.shields.io/github/v/release/level3tjg/TwitchAdBlock.png?label=&style=flat-square&color=black"
       ],
       "versions": [
         {
           "version": "∞",
           "date": "",
-          "localizedDescription": "Latest release of Helium.",
-          "downloadURL": "https://github.com/leminlimez/Helium/releases/latest/download/Helium.tipa",
+          "localizedDescription": "Latest release of TwitchPlus.",
+          "downloadURL": "https://github.com/EscapeAltDelete/TwitchUpdater/releases/latest/download/TwitchPlus.ipa",
           "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
