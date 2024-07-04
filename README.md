@@ -8,7 +8,7 @@
 - [Winston](https://github.com/lo-cafe/winston) ![buh](https://img.shields.io/github/release/lo-cafe/winston.png?label=&style=flat-square&color=black) by lo-cafe
 - [Geranium](https://github.com/c22dev/Geranium) ![buh](https://img.shields.io/github/release/c22dev/Geranium.png?label=&style=flat-square&color=black) by c22dev
 - [TrollDecrypt](https://github.com/donato-fiore/TrollDecrypt) ![buh](https://img.shields.io/github/release/donato-fiore/TrollDecrypt.png?label=&style=flat-square&color=black) by donato-fiore
-- [YTLitePlus](https://github.com/YTLitePlus/YTLitePlus) ![buh](https://img.shields.io/github/release/YTLitePlus/YTLitePlus.png?label=&style=flat-square&color=black) by Balackburn
+- [YTLitePlus](https://github.com/YTLitePlus/YTLitePlus) ![buh](https://img.shields.io/github/release/YTLitePlus/YTLitePlus.png?label=&style=flat-square&color=black) by Balackburn/dayanch96
 - [TwitchPlus](https://github.com/level3tjg/TwitchAdBlock) ![buh](https://raster.shields.io/github/v/release/level3tjg/TwitchAdBlock.png?label=&style=flat-square&color=black) by level3tjg
 
 ### Repository Information
