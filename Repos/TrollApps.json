@@ -31,6 +31,28 @@
       ]
     },
     {
+      "name": "PureKFD",
+      "bundleIdentifier": "PureKFD",
+      "developerName": "Lrdsnow",
+      "localizedDescription": "Latest release of PureKFD.",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/PureKFD.png",
+      "tintColor": "#34495E",
+      "screenshotURLs": [
+        "https://raster.shields.io/github/v/release/Lrdsnow/PureKFD.png?label=&style=flat-square&color=black"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of PureKFD.",
+          "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/latest/download/PureKFD.ipa",
+          "size": 0,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ]
+    },
+    {
       "name": "BHTwitter",
       "bundleIdentifier": "BHTwitter",
       "developerName": "BandarHL",
