@@ -12,13 +12,8 @@
 I made this for myself but you can use it if you wan't.
 This repository provides the latest release of the featured IPA's.
 ### Adding the repo
-1. Download the TrollApps beta from [Here](https://discord.gg/8gBpgDuSnW) and install it using [TrollStore](https://github.com/opa334/TrollStore).
+1. Download the TrollApps beta from [Here](https://github.com/TheResonanceTeam/TrollApps) and install it using [TrollStore](https://github.com/opa334/TrollStore).
 2. Copy [this url](https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Repos/TrollApps.json), and click on "Add repo from clipboard".
 ![add repos](https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Examples/Add-repo-from-clipboard.jpg)
 ### Disclaimer
 I am not the creator of these IPA's and, therefore, cannot provide support for them. For any bug reports or support, visit the respective GitHub repositories of the developers.
-### Error message
-> [!NOTE] 
-If you are using version 2.1 or an earlier version of TrollApps, you might come across this error message. Please just ignore it, as the installation is successfull even though it says otherwise.
-![Error Message](https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Examples/Unknown-error.png)
->
