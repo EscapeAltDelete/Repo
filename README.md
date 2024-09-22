@@ -19,6 +19,6 @@ This repository provides the latest release of the featured IPA's.
 I am not the creator of these IPA's and, therefore, cannot provide support for them. For any bug reports or support, visit the respective GitHub repositories of the developers.
 ### Error message
 > [!NOTE] 
-If you are using version 2.1 or an earlier version of TrollApps, you might come across this error message. Please just ignore it, as the installation is successfully even though it says otherwise.
+If you are using version 2.1 or an earlier version of TrollApps, you might come across this error message. Please just ignore it, as the installation is successfull even though it says otherwise.
 ![Error Message](https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Examples/Unknown-error.png)
 >
