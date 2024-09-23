@@ -31,21 +31,21 @@
       ]
     },
     {
-      "name": "PureKFD",
-      "bundleIdentifier": "PureKFD",
-      "developerName": "Lrdsnow",
-      "localizedDescription": "Latest release of PureKFD.",
-      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/PureKFD.png",
+      "name": "Nugget",
+      "bundleIdentifier": "Nugget",
+      "developerName": "leminlimez",
+      "localizedDescription": "Latest release of Nugget.",
+      "iconURL": "https://raw.githubusercontent.com/leminlimez/Nugget-Mobile/main/Images/Icons/Nugget.png",
       "tintColor": "#34495E",
       "screenshotURLs": [
-        "https://raster.shields.io/github/v/release/Lrdsnow/PureKFD.png?label=&style=flat-square&color=black"
+        "https://raster.shields.io/github/v/release/leminlimez/Nugget-Mobile.png?label=&style=flat-square&color=black"
       ],
       "versions": [
         {
-          "version": "∞",
+          "version": "1.0.1",
           "date": "",
-          "localizedDescription": "Latest release of PureKFD.",
-          "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/latest/download/PureKFD.ipa",
+          "localizedDescription": "Latest release of Nugget.",
+          "downloadURL": "https://github.com/leminlimez/Nugget-Mobile/releases/latest/download/Nugget.ipa",
           "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
