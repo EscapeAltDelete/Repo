@@ -7,7 +7,7 @@
 - [TrollDecrypt](https://github.com/donato-fiore/TrollDecrypt) ![buh](https://img.shields.io/github/release/donato-fiore/TrollDecrypt.png?label=&style=flat-square&color=black) by donato-fiore
 - [Winston](https://github.com/lo-cafe/winston) ![buh](https://img.shields.io/github/release/lo-cafe/winston.png?label=&style=flat-square&color=black) by lo-cafe
 - [BHTwitter](https://github.com/BandarHL/BHTwitter) ![buh](https://img.shields.io/github/release/BandarHL/BHTwitter.png?label=&style=flat-square&color=black) by BandarHL
-- [PureKFD](https://github.com/Lrdsnow/PureKFD) ![buh](https://img.shields.io/github/release/Lrdsnow/PureKFD.png?label=&style=flat-square&color=black) by Lrdsnow
+- [Nugget](https://github.com/leminlimez/Nugget-Mobile) ![buh](https://raster.shields.io/github/v/release/leminlimez/Nugget-Mobile.png?label=&style=flat-square&color=black) by leminlimez
 ### Repository Information
 I made this for myself but you can use it if you wan't.
 This repository provides the latest release of the featured IPA's.
