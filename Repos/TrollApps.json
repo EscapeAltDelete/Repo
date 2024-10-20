@@ -35,14 +35,14 @@
       "bundleIdentifier": "Nugget",
       "developerName": "leminlimez",
       "localizedDescription": "Latest release of Nugget.",
-      "iconURL": "https://raw.githubusercontent.com/leminlimez/Nugget-Mobile/main/Images/Icons/Nugget.png",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/Nugget.png",
       "tintColor": "#34495E",
       "screenshotURLs": [
         "https://raster.shields.io/github/v/release/leminlimez/Nugget-Mobile.png?label=&style=flat-square&color=black"
       ],
       "versions": [
         {
-          "version": "1.0.1",
+          "version": "∞",
           "date": "",
           "localizedDescription": "Latest release of Nugget.",
           "downloadURL": "https://github.com/leminlimez/Nugget-Mobile/releases/latest/download/Nugget.ipa",
