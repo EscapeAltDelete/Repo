@@ -16,4 +16,4 @@ This repository provides the latest release of the featured IPA's.
 2. Copy [this url](https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Repos/TrollApps.json), and click on "Add repo from clipboard".
 ![add repos](https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Examples/Add-repo-from-clipboard.jpg)
 ### Disclaimer
-I am not the creator of these IPA's and, therefore, cannot provide support for them. For any bug reports or support, visit the respective GitHub repositories of the developers.
+I am not the creator of these IPA's and therefore cannot provide support for them. For any bug reports or support, visit the respective GitHub repositories of the developers.
