@@ -12,7 +12,7 @@
 I made this for myself but you can use it if you wan't.
 This repository provides the latest release of the featured IPA's.
 ### Adding the repo
-1. Download the TrollApps beta from [here](https://github.com/TheResonanceTeam/TrollApps) and install it using [TrollStore](https://github.com/opa334/TrollStore).
+1. Download the TrollApps beta from [here](https://github.com/TheResonanceTeam/TrollApps/releases/latest) and install it using [TrollStore](https://github.com/opa334/TrollStore).
 2. Copy [this url](https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Repos/TrollApps.json), and click on "Add repo from clipboard".
 ![add repos](https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Examples/Add-repo-from-clipboard.jpg)
 ### Disclaimer
