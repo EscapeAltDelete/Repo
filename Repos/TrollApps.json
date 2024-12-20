@@ -139,6 +139,28 @@
           "maxOSVersion": "17.0"
         }
       ]
+    },
+    {
+      "name": "OTADisabler",
+      "bundleIdentifier": "OTADisabler",
+      "developerName": "ichitaso",
+      "localizedDescription": "Latest release of OTADisabler.",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/OTADisabler.png",
+      "tintColor": "#123456",
+      "screenshotURLs": [
+        ""
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of OTADisabler.",
+          "downloadURL": "https://github.com/ichitaso/file/raw/main/tipa/OTADisabler_1.1.0.tipa",
+          "size": 0,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ]
     }
   ]
 }
