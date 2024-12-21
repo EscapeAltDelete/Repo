@@ -9,6 +9,10 @@ on:
       download_url:
         description: 'Download URL'
         required: true
+      json_file:
+        description: 'JSON File'
+        required: true
+        default: 'TrollApps'
 
 jobs:
   add-app:
@@ -30,13 +34,14 @@ jobs:
         env:
           APP_NAME: ${{ github.event.inputs.app_name }}
           DOWNLOAD_URL: ${{ github.event.inputs.download_url }}
+          JSON_FILE: ${{ github.event.inputs.json_file }}
 
       - name: Commit changes
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git add Repos/TrollApps.json
-          git commit -m "Add app ${{ github.event.inputs.app_name }}"
+          git add Repos/${{ github.event.inputs.json_file }}.json
+          git commit -m "Add app ${{ github.event.inputs.app_name }} to ${{ github.event.inputs.json_file }}.json"
           git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
