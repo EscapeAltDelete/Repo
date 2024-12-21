@@ -183,6 +183,28 @@
           "maxOSVersion": "17.0"
         }
       ]
+    },
+    {
+      "name": "Blossom",
+      "bundleIdentifier": "Blossom",
+      "developerName": "inyourwalls",
+      "localizedDescription": "Latest release of Blossom.",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/Blossom.png",
+      "tintColor": "#2C3E50",
+      "screenshotURLs": [
+        "https://img.shields.io/github/release/inyourwalls/Blossom.png?label=&style=flat-square&color=black"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of Blossom.",
+          "downloadURL": "https://github.com/inyourwalls/Blossom/releases/latest/download/Blossom.tipa",
+          "size": 0,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ]
     }
   ]
 }
