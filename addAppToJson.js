@@ -30,10 +30,20 @@ const appData = {
 };
 
 const filePath = path.join(__dirname, 'Repos/test.json'); // Ensure this path is correct
-const jsonFile = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
-jsonFile.apps.push(appData);
+// Log the paths and app data for debugging purposes
+console.log('App Data:', appData);
+console.log('File Path:', filePath);
 
-fs.writeFileSync(filePath, JSON.stringify(jsonFile, null, 2));
+try {
+  const jsonFile = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  console.log('Existing JSON File:', jsonFile);
 
-console.log(`App ${appData.name} added successfully!`);
+  jsonFile.apps.push(appData);
+  console.log('Updated JSON File:', jsonFile);
+
+  fs.writeFileSync(filePath, JSON.stringify(jsonFile, null, 2));
+  console.log(`App ${appData.name} added successfully!`);
+} catch (error) {
+  console.error('Error reading or writing JSON file:', error);
+}
