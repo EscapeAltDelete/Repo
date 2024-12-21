@@ -2,6 +2,11 @@ name: Remove Last App from JSON
 
 on:
   workflow_dispatch:
+    inputs:
+      json_file:
+        description: 'Select JSON File'
+        required: true
+        default: 'TrollApps'
 
 jobs:
   remove-app:
@@ -20,13 +25,15 @@ jobs:
       - name: Run Remove Last App Script
         run: |
           node Scripts/removeLastAppFromJson.js
+        env:
+          JSON_FILE: ${{ github.event.inputs.json_file }}
 
       - name: Commit changes
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git add Repos/TrollApps.json
-          git commit -m "Remove last app from JSON"
+          git add Repos/${{ github.event.inputs.json_file }}.json
+          git commit -m "Remove last app from ${{ github.event.inputs.json_file }}.json"
           git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
