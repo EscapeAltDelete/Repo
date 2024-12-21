@@ -1,0 +1,32 @@
+name: Remove Last App from JSON
+
+on:
+  workflow_dispatch:
+
+jobs:
+  remove-app:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Run Remove Last App Script
+        run: |
+          node removeLastAppFromJson.js
+
+      - name: Commit changes
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add Repos/test.json
+          git commit -m "Remove last app from JSON"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
