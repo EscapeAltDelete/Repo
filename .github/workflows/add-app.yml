@@ -26,7 +26,7 @@ jobs:
 
       - name: Run Add App Script
         run: |
-          node addAppToJson.js
+          node Scripts/addAppToJson.js
         env:
           APP_NAME: ${{ github.event.inputs.app_name }}
           DOWNLOAD_URL: ${{ github.event.inputs.download_url }}
@@ -35,7 +35,7 @@ jobs:
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git add Repos/Scripts/test.json
+          git add Repos/test.json
           git commit -m "Add app ${{ github.event.inputs.app_name }}"
           git push origin main
         env:
