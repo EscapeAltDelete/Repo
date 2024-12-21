@@ -205,6 +205,28 @@
           "maxOSVersion": "17.0"
         }
       ]
+    },
+    {
+      "name": "grr",
+      "bundleIdentifier": "grr",
+      "developerName": "grr",
+      "localizedDescription": "Latest release of grr.",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/grr.png",
+      "tintColor": "#2C3E50",
+      "screenshotURLs": [
+        "https://img.shields.io/github/release/grr/grr.png?label=&style=flat-square&color=black"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of grr.",
+          "downloadURL": "https://github.com/grr/grr/releases/latest/download/grr.tipa",
+          "size": 0,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ]
     }
   ]
 }
