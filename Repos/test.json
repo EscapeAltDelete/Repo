@@ -6,6 +6,7 @@
   "headerURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/Escape's-repo.png",
   "website": "https://github.com/EscapeAltDelete/Repo",
   "tintColor": "#2C3E50",
+  "featuredApps": [],
   "apps": [
     {
       "name": "Bootstrap",
@@ -19,7 +20,10 @@
       "versions": [
         {
           "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of Bootstrap.",
           "downloadURL": "https://github.com/roothide/Bootstrap/releases/latest/download/Bootstrap.tipa",
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
@@ -37,7 +41,10 @@
       "versions": [
         {
           "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of Nugget.",
           "downloadURL": "https://github.com/leminlimez/Nugget-Mobile/releases/latest/download/Nugget.ipa",
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
@@ -55,7 +62,10 @@
       "versions": [
         {
           "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of BHTwitter.",
           "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/latest/download/BHTwitter-trollstore.tipa",
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
@@ -73,7 +83,10 @@
       "versions": [
         {
           "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of Winston.",
           "downloadURL": "https://github.com/lo-cafe/winston/releases/latest/download/winston.ipa",
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
@@ -91,7 +104,10 @@
       "versions": [
         {
           "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of Geranium.",
           "downloadURL": "https://github.com/c22dev/Geranium/releases/latest/download/Geranium.tipa",
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
@@ -104,12 +120,15 @@
       "localizedDescription": "Latest release of TrollDecrypt.",
       "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/TrollDecrypt.png",
       "screenshotURLs": [
-        "https://raster.shields.io/github/release/donato-fiore/TrollDecrypt.png?label=&style=flat-square&color=black"
+        "https://img.shields.io/github/release/donato-fiore/TrollDecrypt.png?label=&style=flat-square&color=black"
       ],
       "versions": [
         {
           "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of TrollDecrypt.",
           "downloadURL": "https://github.com/donato-fiore/TrollDecrypt/releases/latest/download/TrollDecrypt.tipa",
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
@@ -127,7 +146,10 @@
       "versions": [
         {
           "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of OTADisabler.",
           "downloadURL": "https://github.com/ichitaso/file/raw/main/tipa/OTADisabler_1.1.0.tipa",
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
@@ -145,7 +167,10 @@
       "versions": [
         {
           "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of TwitchAdBlock.",
           "downloadURL": "https://github.com/EscapeAltDelete/TwitchUpdater/releases/latest/download/TwitchAdBlock.ipa",
+          "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
         }
