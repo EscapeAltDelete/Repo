@@ -24,7 +24,7 @@ const appData = {
     }
   ]
 };
-const jsonFilePath = path.join(__dirname, 'Repos/TrollApps.json');
+const jsonFilePath = path.join(__dirname, '../Repos/TrollApps.json');
 const jsonFile = JSON.parse(fs.readFileSync(jsonFilePath, 'utf8'));
 jsonFile.apps.push(appData);
 fs.writeFileSync(jsonFilePath, JSON.stringify(jsonFile, null, 2));
