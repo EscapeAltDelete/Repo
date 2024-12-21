@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
@@ -28,3 +30,13 @@ jobs:
         env:
           APP_NAME: ${{ github.event.inputs.app_name }}
           DOWNLOAD_URL: ${{ github.event.inputs.download_url }}
+
+      - name: Commit changes
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add Repos/test.json
+          git commit -m "Add app ${{ github.event.inputs.app_name }}"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
