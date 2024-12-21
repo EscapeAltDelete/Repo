@@ -12,7 +12,7 @@ const appData = {
   name: appName,
   bundleIdentifier: appName,
   developerName: developerName,
-  localizedDescription: `Latest release of ${appName}`,
+  localizedDescription: `Latest release of ${appName}.`,
   iconURL: iconURL,
   tintColor: "#2C3E50",
   screenshotURLs: [screenshotURL],
@@ -20,7 +20,7 @@ const appData = {
     {
       version: "∞",
       date: "",
-      localizedDescription: `Latest release of ${appName}`,
+      localizedDescription: `Latest release of ${appName}.`,
       downloadURL: downloadURL,
       size: 0,
       minOSVersion: "14.0",
