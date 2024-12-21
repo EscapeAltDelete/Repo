@@ -51,6 +51,28 @@
           "maxOSVersion": "17.0"
         }
       ]
+    },
+    {
+      "name": "Aemulo",
+      "bundleIdentifier": "Aemulo",
+      "developerName": "Aemulo",
+      "localizedDescription": "Latest release of Aemulo.",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/Aemulo.png",
+      "tintColor": "#2C3E50",
+      "screenshotURLs": [
+        "https://img.shields.io/github/release/Aemulo/Aemulo.png?label=&style=flat-square&color=black"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of Aemulo.",
+          "downloadURL": "https://github.com/Aemulo/Release/releases/latest/download/Aemulo.tipa",
+          "size": 0,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ]
     }
   ]
 }
