@@ -79,7 +79,7 @@
       "bundleIdentifier": "Winston",
       "developerName": "lo-cafe",
       "localizedDescription": "Latest release of Winston.",
-      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/Winston.png", 
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/Winston.png",
       "tintColor": "#5D6D7E",
       "screenshotURLs": [
         "https://raster.shields.io/github/release/lo-cafe/Winston.png?label=&style=flat-square&color=black"
@@ -178,6 +178,28 @@
           "date": "",
           "localizedDescription": "Latest release of TwitchAdBlock.",
           "downloadURL": "https://github.com/EscapeAltDelete/TwitchUpdater/releases/latest/download/TwitchAdBlock.ipa",
+          "size": 0,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ]
+    },
+    {
+      "name": "hm",
+      "bundleIdentifier": "hm",
+      "developerName": "hm",
+      "localizedDescription": "Latest release of hm",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/hm.png",
+      "tintColor": "#2C3E50",
+      "screenshotURLs": [
+        "https://img.shields.io/github/release/hm/hm.png?label=&style=flat-square&color=black"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of hm",
+          "downloadURL": "https://github.com/hm/hm/releases/latest/download/hm.tipa",
           "size": 0,
           "minOSVersion": "14.0",
           "maxOSVersion": "17.0"
