@@ -1,18 +1,14 @@
 const fs = require('fs');
 const path = require('path');
-
-const appName = process.env.APP_NAME;
-const downloadURL = process.env.DOWNLOAD_URL;
-
-const developerName = downloadURL.split('/')[3];
-const iconURL = `https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/${appName}.png`;
-const screenshotURL = `https://img.shields.io/github/release/${developerName}/${appName}.png?label=&style=flat-square&color=black`;
-
+const { APP_NAME, DOWNLOAD_URL } = process.env;
+const developerName = DOWNLOAD_URL.split('/')[3];
+const iconURL = `https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/${APP_NAME}.png`;
+const screenshotURL = `https://img.shields.io/github/release/${developerName}/${APP_NAME}.png?label=&style=flat-square&color=black`;
 const appData = {
-  name: appName,
-  bundleIdentifier: appName,
+  name: APP_NAME,
+  bundleIdentifier: APP_NAME,
   developerName: developerName,
-  localizedDescription: `Latest release of ${appName}.`,
+  localizedDescription: `Latest release of ${APP_NAME}.`,
   iconURL: iconURL,
   tintColor: "#2C3E50",
   screenshotURLs: [screenshotURL],
@@ -20,18 +16,15 @@ const appData = {
     {
       version: "∞",
       date: "",
-      localizedDescription: `Latest release of ${appName}.`,
-      downloadURL: downloadURL,
+      localizedDescription: `Latest release of ${APP_NAME}.`,
+      downloadURL: DOWNLOAD_URL,
       size: 0,
       minOSVersion: "14.0",
       maxOSVersion: "17.0"
     }
   ]
 };
-
 const jsonFilePath = path.join(__dirname, 'Repos/TrollApps.json');
 const jsonFile = JSON.parse(fs.readFileSync(jsonFilePath, 'utf8'));
-
 jsonFile.apps.push(appData);
-
 fs.writeFileSync(jsonFilePath, JSON.stringify(jsonFile, null, 2));
