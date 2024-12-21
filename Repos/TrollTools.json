@@ -73,6 +73,28 @@
           "maxOSVersion": "17.0"
         }
       ]
+    },
+    {
+      "name": "TwitchAdBlock",
+      "bundleIdentifier": "TwitchAdBlock",
+      "developerName": "EscapeAltDelete",
+      "localizedDescription": "Latest release of TwitchAdBlock.",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/TwitchAdBlock.png",
+      "tintColor": "#2C3E50",
+      "screenshotURLs": [
+        "https://img.shields.io/github/release/EscapeAltDelete/TwitchAdBlock.png?label=&style=flat-square&color=black"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of TwitchAdBlock.",
+          "downloadURL": "https://github.com/EscapeAltDelete/TwitchUpdater/releases/latest/download/TwitchAdBlock.ipa",
+          "size": 0,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ]
     }
   ]
 }
