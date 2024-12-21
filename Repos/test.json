@@ -183,28 +183,6 @@
           "maxOSVersion": "17.0"
         }
       ]
-    },
-    {
-      "name": "LastTestFR",
-      "bundleIdentifier": "LastTestFR",
-      "developerName": "LastTestFR",
-      "localizedDescription": "Latest release of LastTestFR",
-      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/LastTestFR.png",
-      "tintColor": "#2C3E50",
-      "screenshotURLs": [
-        "https://img.shields.io/github/release/LastTestFR/LastTestFR.png?label=&style=flat-square&color=black"
-      ],
-      "versions": [
-        {
-          "version": "∞",
-          "date": "",
-          "localizedDescription": "Latest release of LastTestFR",
-          "downloadURL": "https://github.com/LastTestFR/LastTestFR/releases/latest/download/LastTestFR.tipa",
-          "size": 0,
-          "minOSVersion": "14.0",
-          "maxOSVersion": "17.0"
-        }
-      ]
     }
   ]
 }
