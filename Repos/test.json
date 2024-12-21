@@ -183,6 +183,28 @@
           "maxOSVersion": "17.0"
         }
       ]
+    },
+    {
+      "name": "wawa",
+      "bundleIdentifier": "wawa",
+      "developerName": "WAWA",
+      "localizedDescription": "Latest release of wawa",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/wawa.png",
+      "tintColor": "#2C3E50",
+      "screenshotURLs": [
+        "https://img.shields.io/github/release/WAWA/wawa.png?label=&style=flat-square&color=black"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of wawa",
+          "downloadURL": "https://github.com/WAWA/WAWA/releases/latest/download/WAWA.tipa",
+          "size": 0,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ]
     }
   ]
 }
