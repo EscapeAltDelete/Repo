@@ -29,27 +29,6 @@
           "maxOSVersion": "17.0"
         }
       ]
-    },
-    {
-      "name": "Test",
-      "bundleIdentifier": "Test",
-      "localizedDescription": "Latest release of Test.",
-      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/Test.png",
-      "tintColor": "#2C3E50",
-      "screenshotURLs": [
-        "https://img.shields.io/github/release/undefined/Test.png?label=&style=flat-square&color=black"
-      ],
-      "versions": [
-        {
-          "version": "∞",
-          "date": "",
-          "localizedDescription": "Latest release of Test.",
-          "downloadURL": "Test",
-          "size": 0,
-          "minOSVersion": "14.0",
-          "maxOSVersion": "17.0"
-        }
-      ]
     }
   ]
 }
