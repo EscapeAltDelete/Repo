@@ -1,1 +1,34 @@
-
+{
+  "name": "Escape's repo",
+  "subtitle": "Escape's repo",
+  "description": "Escape's repo",
+  "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/Escape's-repo.png",
+  "headerURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/Escape's-repo.png",
+  "website": "https://github.com/EscapeAltDelete/Repo",
+  "tintColor": "#2C3E50",
+  "featuredApps": [],
+  "apps": [
+    {
+      "name": "OTADisabler",
+      "bundleIdentifier": "OTADisabler",
+      "developerName": "ichitaso",
+      "localizedDescription": "Latest release of OTADisabler.",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/OTADisabler.png",
+      "tintColor": "#123456",
+      "screenshotURLs": [
+        "https://img.shields.io/github/release/ichitaso/OTADisabler.png?label=&style=flat-square&color=black"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of OTADisabler.",
+          "downloadURL": "https://github.com/ichitaso/file/raw/main/tipa/OTADisabler_1.1.0.tipa",
+          "size": 0,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ]
+    }
+  ]
+}
