@@ -19,7 +19,7 @@ jobs:
 
       - name: Run Remove Last App Script
         run: |
-          node Scripts/removeLastAppFromJson.js
+          node removeLastAppFromJson.js
 
       - name: Commit changes
         run: |
