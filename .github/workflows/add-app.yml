@@ -9,10 +9,6 @@ on:
       download_url:
         description: 'Download URL'
         required: true
-      json_file:
-        description: 'JSON File'
-        required: true
-        default: 'TrollApps'
 
 jobs:
   add-app:
@@ -20,8 +16,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: List JSON files
+        id: list-json-files
+        run: |
+          ls Repos/*.json | sed 's|Repos/||; s|.json||' > json_files.txt
+          echo "json_files=$(cat json_files.txt | tr '\n' ',')" >> $GITHUB_ENV
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
@@ -35,13 +35,14 @@ jobs:
           APP_NAME: ${{ github.event.inputs.app_name }}
           DOWNLOAD_URL: ${{ github.event.inputs.download_url }}
           JSON_FILE: ${{ github.event.inputs.json_file }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit changes
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git add Repos/${{ github.event.inputs.json_file }}.json
-          git commit -m "Add app ${{ github.event.inputs.app_name }} to ${{ github.event.inputs.json_file }}.json"
+          git add Repos/${{ env.JSON_FILE }}.json
+          git commit -m "Add app ${{ github.event.inputs.app_name }} to ${{ env.JSON_FILE }}.json"
           git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
