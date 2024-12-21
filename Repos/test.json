@@ -183,28 +183,6 @@
           "maxOSVersion": "17.0"
         }
       ]
-    },
-    {
-      "name": "buh",
-      "bundleIdentifier": "buh",
-      "developerName": "buh",
-      "localizedDescription": "Latest release of buh",
-      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/buh.png",
-      "tintColor": "#2C3E50",
-      "screenshotURLs": [
-        "https://img.shields.io/github/release/buh/buh.png?label=&style=flat-square&color=black"
-      ],
-      "versions": [
-        {
-          "version": "∞",
-          "date": "",
-          "localizedDescription": "Latest release of buh",
-          "downloadURL": "https://github.com/buh/buh/releases/latest/download/buh.tipa",
-          "size": 0,
-          "minOSVersion": "14.0",
-          "maxOSVersion": "17.0"
-        }
-      ]
     }
   ]
 }
