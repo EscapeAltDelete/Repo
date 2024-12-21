@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const filePath = path.join(__dirname, 'Repos/TrollApps.json');
+const filePath = path.join(__dirname, '../Repos/TrollApps.json');
 
 const jsonFile = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
