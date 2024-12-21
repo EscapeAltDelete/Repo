@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { APP_NAME, DOWNLOAD_URL } = process.env;
+const { APP_NAME, DOWNLOAD_URL, JSON_FILE } = process.env;
 const developerName = DOWNLOAD_URL.split('/')[3];
 const iconURL = `https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/${APP_NAME}.png`;
 const screenshotURL = `https://img.shields.io/github/release/${developerName}/${APP_NAME}.png?label=&style=flat-square&color=black`;
@@ -24,7 +24,7 @@ const appData = {
     }
   ]
 };
-const jsonFilePath = path.join(__dirname, '../Repos/TrollApps.json');
+const jsonFilePath = path.join(__dirname, `../Repos/${JSON_FILE}.json`);
 const jsonFile = JSON.parse(fs.readFileSync(jsonFilePath, 'utf8'));
 jsonFile.apps.push(appData);
 fs.writeFileSync(jsonFilePath, JSON.stringify(jsonFile, null, 2));
