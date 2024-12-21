@@ -35,12 +35,3 @@ const jsonFile = JSON.parse(fs.readFileSync(jsonFilePath, 'utf8'));
 jsonFile.apps.push(appData);
 
 fs.writeFileSync(jsonFilePath, JSON.stringify(jsonFile, null, 2));
-
-const readmeFilePath = path.join(__dirname, 'README.md');
-const readmeContent = fs.readFileSync(readmeFilePath, 'utf8');
-
-const newReadmeEntry = `- [${appName}](https://github.com/${developerName}/${appName}) ![buh](${screenshotURL}) by ${developerName}`;
-
-const updatedReadmeContent = readmeContent + '\n' + newReadmeEntry;
-
-fs.writeFileSync(readmeFilePath, updatedReadmeContent);
