@@ -1,0 +1,78 @@
+name: Add App to JSON
+
+on:
+  workflow_dispatch:
+    inputs:
+      app_name:
+        description: 'App Name'
+        required: true
+      bundle_identifier:
+        description: 'Bundle Identifier'
+        required: true
+      developer_name:
+        description: 'Developer Name'
+        required: true
+      localized_description:
+        description: 'Localized Description'
+        required: true
+      icon_url:
+        description: 'Icon URL'
+        required: true
+      tint_color:
+        description: 'Tint Color'
+        required: true
+      screenshot_url:
+        description: 'Screenshot URL'
+        required: true
+      version:
+        description: 'Version'
+        required: true
+      date:
+        description: 'Date'
+        required: false
+      version_description:
+        description: 'Version Description'
+        required: true
+      download_url:
+        description: 'Download URL'
+        required: true
+      size:
+        description: 'Size'
+        required: true
+      min_os_version:
+        description: 'Min OS Version'
+        required: true
+      max_os_version:
+        description: 'Max OS Version'
+        required: true
+
+jobs:
+  add-app:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Run Add App Script
+        run: |
+          node addAppToJson.js
+        env:
+          APP_NAME: ${{ github.event.inputs.app_name }}
+          BUNDLE_IDENTIFIER: ${{ github.event.inputs.bundle_identifier }}
+          DEVELOPER_NAME: ${{ github.event.inputs.developer_name }}
+          LOCALIZED_DESCRIPTION: ${{ github.event.inputs.localized_description }}
+          ICON_URL: ${{ github.event.inputs.icon_url }}
+          TINT_COLOR: ${{ github.event.inputs.tint_color }}
+          SCREENSHOT_URL: ${{ github.event.inputs.screenshot_url }}
+          VERSION: ${{ github.event.inputs.version }}
+          DATE: ${{ github.event.inputs.date || '' }}
+          VERSION_DESCRIPTION: ${{ github.event.inputs.version_description }}
+          DOWNLOAD_URL: ${{ github.event.inputs.download_url }}
+          SIZE: ${{ github.event.inputs.size }}
+          MIN_OS_VERSION: ${{ github.event.inputs.min_os_version }}
+          MAX_OS_VERSION: ${{ github.event.inputs.max_os_version }}
