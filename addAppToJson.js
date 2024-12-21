@@ -29,7 +29,7 @@ const appData = {
   ]
 };
 
-const filePath = path.join(__dirname, '../Repos/test.json');
+const filePath = path.join(__dirname, 'Repos/test.json'); // Ensure this path is correct
 const jsonFile = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
 jsonFile.apps.push(appData);
