@@ -25,7 +25,7 @@ jobs:
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git add Repos/test.json
+          git add Repos/Scripts/test.json
           git commit -m "Remove last app from JSON"
           git push origin main
         env:
