@@ -1,7 +1,8 @@
 const fs = require('fs');
 const path = require('path');
+const { JSON_FILE } = process.env;
 
-const filePath = path.join(__dirname, '../Repos/TrollApps.json');
+const filePath = path.join(__dirname, `../Repos/${JSON_FILE}.json`); // Use the selected JSON file
 
 const jsonFile = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
