@@ -183,28 +183,6 @@
           "maxOSVersion": "17.0"
         }
       ]
-    },
-    {
-      "name": "HeyIJustMetYouAndThisIsCrazy",
-      "bundleIdentifier": "HeyIJustMetYouAndThisIsCrazy",
-      "developerName": "HeyIJustMetYouAndThisIsCrazy",
-      "localizedDescription": "Latest release of HeyIJustMetYouAndThisIsCrazy",
-      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/HeyIJustMetYouAndThisIsCrazy.png",
-      "tintColor": "#2C3E50",
-      "screenshotURLs": [
-        "https://img.shields.io/github/release/HeyIJustMetYouAndThisIsCrazy/HeyIJustMetYouAndThisIsCrazy.png?label=&style=flat-square&color=black"
-      ],
-      "versions": [
-        {
-          "version": "∞",
-          "date": "",
-          "localizedDescription": "Latest release of HeyIJustMetYouAndThisIsCrazy",
-          "downloadURL": "https://github.com/HeyIJustMetYouAndThisIsCrazy/HeyIJustMetYouAndThisIsCrazy/releases/latest/download/HeyIJustMetYouAndThisIsCrazy.tipa",
-          "size": 0,
-          "minOSVersion": "14.0",
-          "maxOSVersion": "17.0"
-        }
-      ]
     }
   ]
 }
