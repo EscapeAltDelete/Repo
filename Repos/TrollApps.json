@@ -148,7 +148,7 @@
       "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/OTADisabler.png",
       "tintColor": "#123456",
       "screenshotURLs": [
-        ""
+        "https://img.shields.io/github/release/ichitaso/OTADisabler.png?label=&style=flat-square&color=black"
       ],
       "versions": [
         {
@@ -169,7 +169,9 @@
       "localizedDescription": "Latest release of TwitchAdBlock.",
       "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/TwitchAdBlock.ipa",
       "tintColor": "#2C3E50",
-      "screenshotURLs": [],
+      "screenshotURLs": [
+        "https://img.shields.io/github/release/level3tjg/TwitchAdBlock.png?label=&style=flat-square&color=black"
+      ],
       "versions": [
         {
           "version": "∞",
