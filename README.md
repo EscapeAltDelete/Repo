@@ -8,7 +8,7 @@
 - [Winston](https://github.com/lo-cafe/winston) ![buh](https://img.shields.io/github/release/lo-cafe/winston.png?label=&style=flat-square&color=black) by lo-cafe
 - [BHTwitter](https://github.com/BandarHL/BHTwitter) ![buh](https://img.shields.io/github/release/BandarHL/BHTwitter.png?label=&style=flat-square&color=black) by BandarHL
 - [Nugget](https://github.com/leminlimez/Nugget-Mobile) ![buh](https://raster.shields.io/github/v/release/leminlimez/Nugget-Mobile.png?label=&style=flat-square&color=black) by leminlimez
-- [OTADisabler](https://ichitaso.com/apt/depiction/otadisabler.html) v1.1.0 by ichitaso
+- [OTADisabler](https://ichitaso.com/apt/depiction/otadisabler.html) v1.2.0 by ichitaso
 - [TwitchAdBlock](https://github.com/level3tjg/TwitchAdBlock) ![buh](https://raster.shields.io/github/v/release/level3tjg/TwitchAdBlock.png?label=&style=flat-square&color=black) by level3tjg
 ### Repository Information
 I made this for myself but you can use it if you wan't.
