@@ -183,6 +183,28 @@
           "maxOSVersion": "17.0"
         }
       ]
+    },
+    {
+      "name": "AppStore++",
+      "bundleIdentifier": "AppStore++",
+      "developerName": "CokePokes",
+      "localizedDescription": "Latest release of AppStore++.",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/AppStore++.png",
+      "tintColor": "#2C3E50",
+      "screenshotURLs": [
+        "https://img.shields.io/github/release/CokePokes/AppStore++.png?label=&style=flat-square&color=black"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of AppStore++.",
+          "downloadURL": "https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v1.2-1/AppStore++_TrollStore_v1.0.3-2.ipa",
+          "size": 0,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ]
     }
   ]
 }
