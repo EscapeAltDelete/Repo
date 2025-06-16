@@ -183,6 +183,28 @@
           "maxOSVersion": "17.0"
         }
       ]
+    },
+    {
+      "name": "MuffinStore",
+      "bundleIdentifier": "MuffinStore",
+      "developerName": "mineek",
+      "localizedDescription": "Latest release of MuffinStore.",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/MuffinStore.png",
+      "tintColor": "#2C3E50",
+      "screenshotURLs": [
+        "https://img.shields.io/github/release/mineek/MuffinStore.png?label=&style=flat-square&color=black"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of MuffinStore.",
+          "downloadURL": "https://github.com/mineek/MuffinStore/releases/download/1.1/MuffinStore_v1.1.tipa",
+          "size": 0,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ]
     }
   ]
 }
