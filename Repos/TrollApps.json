@@ -183,6 +183,28 @@
           "maxOSVersion": "17.0"
         }
       ]
+    },
+    {
+      "name": "qBitControl",
+      "bundleIdentifier": "qBitControl",
+      "developerName": "Michael-128",
+      "localizedDescription": "Latest release of qBitControl.",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/qBitControl.png",
+      "tintColor": "#2C3E50",
+      "screenshotURLs": [
+        "https://img.shields.io/github/release/Michael-128/qBitControl.png?label=&style=flat-square&color=black"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of qBitControl.",
+          "downloadURL": "https://github.com/Michael-128/qBitControl/releases/latest/download/qBitControl.ipa",
+          "size": 0,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ]
     }
   ]
 }
