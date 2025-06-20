@@ -10,6 +10,7 @@
 - [Nugget](https://github.com/leminlimez/Nugget-Mobile) ![buh](https://raster.shields.io/github/v/release/leminlimez/Nugget-Mobile.png?label=&style=flat-square&color=black) by leminlimez
 - [OTADisabler](https://ichitaso.com/apt/depiction/otadisabler.html) v1.2.0 by ichitaso
 - [TwitchAdBlock](https://github.com/level3tjg/TwitchAdBlock) ![buh](https://raster.shields.io/github/v/release/level3tjg/TwitchAdBlock.png?label=&style=flat-square&color=black) by level3tjg
+- [qBitControl](https://github.com/Michael-128/qBitControl) ![buh](https://raster.shields.io/github/v/release/Michael-128/qBitControl.png?label=&style=flat-square&color=black) by Michael-128
 ### Repository Information
 I made this for myself but you can use it if you wan't.
 This repository provides the latest release of the featured IPA's.
