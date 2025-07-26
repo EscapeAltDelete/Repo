@@ -227,6 +227,28 @@
           "maxOSVersion": "17.0"
         }
       ]
+    },
+    {
+      "name": "Nicegram",
+      "bundleIdentifier": "Nicegram",
+      "developerName": "nicegram",
+      "localizedDescription": "Latest release of Nicegram.",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/Nicegram.png",
+      "tintColor": "#2C3E50",
+      "screenshotURLs": [
+        "https://img.shields.io/github/release/nicegram/Nicegram.png?label=&style=flat-square&color=black"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of Nicegram.",
+          "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/latest/download/Nicegram.ipa",
+          "size": 0,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ]
     }
   ]
 }
