@@ -227,28 +227,6 @@
           "maxOSVersion": "17.0"
         }
       ]
-    },
-    {
-      "name": "Trollstore",
-      "bundleIdentifier": "Trollstore",
-      "developerName": "b0ql4u.ipa",
-      "localizedDescription": "Latest release of Trollstore.",
-      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/Trollstore.png",
-      "tintColor": "#2C3E50",
-      "screenshotURLs": [
-        "https://img.shields.io/github/release/b0ql4u.ipa/Trollstore.png?label=&style=flat-square&color=black"
-      ],
-      "versions": [
-        {
-          "version": "∞",
-          "date": "",
-          "localizedDescription": "Latest release of Trollstore.",
-          "downloadURL": "https://files.catbox.moe/b0ql4u.ipa",
-          "size": 0,
-          "minOSVersion": "14.0",
-          "maxOSVersion": "17.0"
-        }
-      ]
     }
   ]
 }
