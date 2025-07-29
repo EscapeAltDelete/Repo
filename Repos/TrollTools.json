@@ -1,78 +1,18 @@
 {
-  "name": "Escape's repo",
-  "subtitle": "Escape's repo",
-  "description": "Escape's repo",
-  "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/Escape's-repo.png",
-  "headerURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/Escape's-repo.png",
-  "website": "https://github.com/EscapeAltDelete/Repo",
-  "tintColor": "#2C3E50",
-  "featuredApps": [],
-  "apps": [
+  "repository_name": "ImmortalizerJailed Repo",
+  "repository_icon": "https://avatars.githubusercontent.com/u/49284224?v=4",
+  "packages": [
     {
-      "name": "OTADisabler",
-      "bundleIdentifier": "OTADisabler",
-      "developerName": "ichitaso",
-      "localizedDescription": "Latest release of OTADisabler.",
-      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/OTADisabler.png",
-      "tintColor": "#123456",
-      "screenshotURLs": [
-        "https://img.shields.io/github/release/ichitaso/OTADisabler.png?label=&style=flat-square&color=black"
-      ],
-      "versions": [
-        {
-          "version": "∞",
-          "date": "",
-          "localizedDescription": "Latest release of OTADisabler.",
-          "downloadURL": "https://github.com/ichitaso/file/raw/main/tipa/OTADisabler_1.1.0.tipa",
-          "size": 0,
-          "minOSVersion": "14.0",
-          "maxOSVersion": "17.0"
-        }
-      ]
-    },
-    {
-      "name": "Blossom",
-      "bundleIdentifier": "Blossom",
-      "developerName": "inyourwalls",
-      "localizedDescription": "Latest release of Blossom.",
-      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/Blossom.png",
-      "tintColor": "#2C3E50",
-      "screenshotURLs": [
-        "https://img.shields.io/github/release/inyourwalls/Blossom.png?label=&style=flat-square&color=black"
-      ],
-      "versions": [
-        {
-          "version": "∞",
-          "date": "",
-          "localizedDescription": "Latest release of Blossom.",
-          "downloadURL": "https://github.com/inyourwalls/Blossom/releases/latest/download/Blossom.tipa",
-          "size": 0,
-          "minOSVersion": "14.0",
-          "maxOSVersion": "17.0"
-        }
-      ]
-    },
-    {
-      "name": "Aemulo",
-      "bundleIdentifier": "Aemulo",
-      "developerName": "Aemulo",
-      "localizedDescription": "Latest release of Aemulo.",
-      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/Aemulo.png",
-      "tintColor": "#2C3E50",
-      "screenshotURLs": [
-        "https://img.shields.io/github/release/Aemulo/Aemulo.png?label=&style=flat-square&color=black"
-      ],
-      "versions": [
-        {
-          "version": "∞",
-          "date": "",
-          "localizedDescription": "Latest release of Aemulo.",
-          "downloadURL": "https://github.com/Aemulo/Release/releases/latest/download/Aemulo.tipa",
-          "size": 0,
-          "minOSVersion": "14.0",
-          "maxOSVersion": "17.0"
-        }
-      ]
+      "id": "com.sergealagon.immortalizerjailed",
+      "name": "ImmortalizerJailed",
+      "author": "sergealagon",
+      "version": "latest",
+      "description": "Keep your apps running in the foreground indefinitely, even if they are in the background! This is the jailed version of the tweak Immortalizer that can be injected on any IPA, without the need of jailbreak or TrollStore. [1]",
+      "section": "Tweaks",
+      "icon_url": "https://raw.githubusercontent.com/sergealagon/ImmortalizerJailed/main/icon.png",
+      "download_url": "https://github.com/sergealagon/ImmortalizerJailed/releases/latest/download/ImmortalizerJailed.dylib",
+      "screenshots": [],
+      "isAdvertisement": false
     }
   ]
 }
