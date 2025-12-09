@@ -227,28 +227,6 @@
           "maxOSVersion": "17.0"
         }
       ]
-    },
-    {
-      "name": "NathanLR",
-      "bundleIdentifier": "NathanLR",
-      "developerName": "nathanlr",
-      "localizedDescription": "Latest release of NathanLR.",
-      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/NathanLR.png",
-      "tintColor": "#2C3E50",
-      "screenshotURLs": [
-        "https://img.shields.io/github/release/nathanlr/NathanLR.png?label=&style=flat-square&color=black"
-      ],
-      "versions": [
-        {
-          "version": "∞",
-          "date": "",
-          "localizedDescription": "Latest release of NathanLR.",
-          "downloadURL": "https://nathan4s.lol/nathanlr/nathanlr.tipa",
-          "size": 0,
-          "minOSVersion": "14.0",
-          "maxOSVersion": "17.0"
-        }
-      ]
     }
   ]
 }
