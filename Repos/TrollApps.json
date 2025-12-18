@@ -227,6 +227,28 @@
           "maxOSVersion": "17.0"
         }
       ]
+    },
+    {
+      "name": "Battman",
+      "bundleIdentifier": "Battman",
+      "developerName": "Torrekie",
+      "localizedDescription": "Latest release of Battman.",
+      "iconURL": "https://raw.githubusercontent.com/EscapeAltDelete/Repo/main/Images/Icons/Battman.png",
+      "tintColor": "#2C3E50",
+      "screenshotURLs": [
+        "https://img.shields.io/github/release/Torrekie/Battman.png?label=&style=flat-square&color=black"
+      ],
+      "versions": [
+        {
+          "version": "∞",
+          "date": "",
+          "localizedDescription": "Latest release of Battman.",
+          "downloadURL": "https://github.com/Torrekie/Battman/releases/latest/download/Battman.tipa",
+          "size": 0,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ]
     }
   ]
 }
