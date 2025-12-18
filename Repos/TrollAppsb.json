@@ -92,6 +92,15 @@
       "downloadURL": "https:\/\/github.com\/sergealagon\/ImmortalizerTS\/releases\/download\/Release\/ImmortalizerTS.1.0b.tipa",
       "size": 0,
       "iconURL": "https:\/\/raw.githubusercontent.com\/EscapeAltDelete\/Repo\/main\/Images\/Icons\/Immortalizer.png"
+    },
+    {
+      "name": "Battman",
+      "bundleIdentifier": "Battman",
+      "version": "∞",
+      "description": "Latest release of Battman.",
+      "downloadURL": "https:\/\/github.com\/Torrekie\/Battman\/releases\/latest\/download\/Battman.tipa",
+      "size": 0,
+      "iconURL": "https:\/\/raw.githubusercontent.com\/EscapeAltDelete\/Repo\/main\/Images\/Icons\/Battman.png"
     }
   ]
 }
